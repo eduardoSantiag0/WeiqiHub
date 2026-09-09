@@ -524,6 +524,12 @@ abstract class AppLocalizations {
   /// **'Exit try mode'**
   String get exitTryMode;
 
+  /// No description provided for @favorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get favorites;
+
   /// No description provided for @find.
   ///
   /// In en, this message translates to:
@@ -679,6 +685,198 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Home'**
   String get home;
+
+  /// No description provided for @josekiComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Joseki complete'**
+  String get josekiComplete;
+
+  /// No description provided for @josekiNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next joseki'**
+  String get josekiNext;
+
+  /// No description provided for @josekiNoFavorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorite josekis to practise them here'**
+  String get josekiNoFavorites;
+
+  /// No description provided for @josekiPlayShuffled.
+  ///
+  /// In en, this message translates to:
+  /// **'Play in random order'**
+  String get josekiPlayShuffled;
+
+  /// No description provided for @josekiPlayFavoritesShuffled.
+  ///
+  /// In en, this message translates to:
+  /// **'Play favorites in random order'**
+  String get josekiPlayFavoritesShuffled;
+
+  /// No description provided for @josekiShowFavoritesOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Show favorites only'**
+  String get josekiShowFavoritesOnly;
+
+  /// No description provided for @josekiRandomizeOrientation.
+  ///
+  /// In en, this message translates to:
+  /// **'Randomize orientation'**
+  String get josekiRandomizeOrientation;
+
+  /// No description provided for @josekiRandomizeSide.
+  ///
+  /// In en, this message translates to:
+  /// **'Randomize side (Black/White)'**
+  String get josekiRandomizeSide;
+
+  /// No description provided for @josekiImport.
+  ///
+  /// In en, this message translates to:
+  /// **'Import'**
+  String get josekiImport;
+
+  /// No description provided for @josekiNewCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'New category'**
+  String get josekiNewCategory;
+
+  /// No description provided for @josekiNewCategoryOption.
+  ///
+  /// In en, this message translates to:
+  /// **'New category…'**
+  String get josekiNewCategoryOption;
+
+  /// No description provided for @josekiImportFiles.
+  ///
+  /// In en, this message translates to:
+  /// **'Import files'**
+  String get josekiImportFiles;
+
+  /// No description provided for @josekiImportFolder.
+  ///
+  /// In en, this message translates to:
+  /// **'Import SGF folder'**
+  String get josekiImportFolder;
+
+  /// No description provided for @josekiImportOgsUrl.
+  ///
+  /// In en, this message translates to:
+  /// **'From OGS collection URL'**
+  String get josekiImportOgsUrl;
+
+  /// No description provided for @josekiImportOgsUrlTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Import OGS puzzle collection'**
+  String get josekiImportOgsUrlTitle;
+
+  /// No description provided for @josekiImportOgsUrlLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Puzzle collection URL'**
+  String get josekiImportOgsUrlLabel;
+
+  /// No description provided for @josekiImportOgsUrlDownloading.
+  ///
+  /// In en, this message translates to:
+  /// **'Downloading puzzles from OGS…'**
+  String get josekiImportOgsUrlDownloading;
+
+  /// No description provided for @josekiImportOgsUrlInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'That doesn\'t look like an OGS puzzle collection URL'**
+  String get josekiImportOgsUrlInvalid;
+
+  /// No description provided for @josekiImportOgsUrlFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t download that puzzle collection'**
+  String get josekiImportOgsUrlFailed;
+
+  /// No description provided for @josekiImportTarget.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to category'**
+  String get josekiImportTarget;
+
+  /// No description provided for @josekiCategoryName.
+  ///
+  /// In en, this message translates to:
+  /// **'Category name'**
+  String get josekiCategoryName;
+
+  /// No description provided for @josekiRename.
+  ///
+  /// In en, this message translates to:
+  /// **'Rename'**
+  String get josekiRename;
+
+  /// No description provided for @josekiExport.
+  ///
+  /// In en, this message translates to:
+  /// **'Export as SGF'**
+  String get josekiExport;
+
+  /// No description provided for @josekiExportedTo.
+  ///
+  /// In en, this message translates to:
+  /// **'Category exported to {path}'**
+  String josekiExportedTo(String path);
+
+  /// No description provided for @josekiExportFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Export failed'**
+  String get josekiExportFailed;
+
+  /// No description provided for @josekiChangeIcon.
+  ///
+  /// In en, this message translates to:
+  /// **'Change icon'**
+  String get josekiChangeIcon;
+
+  /// No description provided for @josekiCategoryIcon.
+  ///
+  /// In en, this message translates to:
+  /// **'Category icon'**
+  String get josekiCategoryIcon;
+
+  /// No description provided for @josekiDeleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete category'**
+  String get josekiDeleteCategory;
+
+  /// No description provided for @josekiDeleteCategoryConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete \"{name}\" and its imported josekis?'**
+  String josekiDeleteCategoryConfirm(String name);
+
+  /// No description provided for @josekiImportNoSgf.
+  ///
+  /// In en, this message translates to:
+  /// **'No SGF files found in that folder'**
+  String get josekiImportNoSgf;
+
+  /// No description provided for @josekiImportFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Import failed'**
+  String get josekiImportFailed;
+
+  /// No description provided for @josekiImportResult.
+  ///
+  /// In en, this message translates to:
+  /// **'Imported {imported}, skipped {skipped}'**
+  String josekiImportResult(int imported, int skipped);
 
   /// No description provided for @komi.
   ///
@@ -1393,6 +1591,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Theory'**
   String get taskTypeTheory;
+
+  /// No description provided for @taskUndoMove.
+  ///
+  /// In en, this message translates to:
+  /// **'Undo move'**
+  String get taskUndoMove;
 
   /// No description provided for @taskWrong.
   ///

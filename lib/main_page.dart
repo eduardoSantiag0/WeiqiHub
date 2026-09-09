@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wqhub/game_client/game_client_list.dart';
 import 'package:wqhub/help/ranked_mode_help_dialog.dart';
 import 'package:wqhub/help/time_frenzy_help_dialog.dart';
+import 'package:wqhub/joseki/joseki_category_list_page.dart';
 import 'package:wqhub/l10n/app_localizations.dart';
 import 'package:wqhub/main_page_bottom_navigation_bar.dart';
 import 'package:wqhub/main_page_navigation_rail.dart';
@@ -29,7 +30,7 @@ import 'package:wqhub/train/time_frenzy_page.dart';
 import 'package:wqhub/train/train_stats_page.dart';
 import 'package:wqhub/window_class_aware_state.dart';
 
-enum MainPageDestination { home, play, train }
+enum MainPageDestination { home, play, train, joseki }
 
 class MainRouteArguments {
   final MainPageDestination destination;
@@ -109,6 +110,7 @@ class _MainPageState extends WindowClassAwareState<MainPage> {
             WindowClass.large => 4,
             WindowClass.extraLarge => 4,
           }),
+        MainPageDestination.joseki => const JosekiTabBody(),
       };
 
   void _setSelectedDestination(MainPageDestination dest) {

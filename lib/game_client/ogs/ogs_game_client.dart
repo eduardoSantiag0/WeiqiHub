@@ -614,7 +614,11 @@ class OGSGameClient extends GameClient implements OGSAutomatch {
 
     if (rating is num) {
       final clipped = rating.clamp(minRating, maxRating);
-      final rankNum = (math.log(clipped / a) * c).round();
+      // Match OGS, which floors the continuous rank (`Math.floor(rating_to_rank(...))`
+      // in rank_utils.ts). Rounding instead would place a player up to one whole
+      // rank above where OGS itself buckets them, so an automatch opponent OGS
+      // considers the same rank could show here as a rank weaker/stronger.
+      final rankNum = (math.log(clipped / a) * c).floor();
 
       final clampedRankNum = rankNum.clamp(0, Rank.values.length - 1);
       return Rank.values[clampedRankNum];

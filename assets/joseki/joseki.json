@@ -1,0 +1,2854 @@
+{
+  "categories": [
+    {
+      "id": "invasions",
+      "title": "Invasions",
+      "josekis": [
+        {
+          "id": "invasions/075da265",
+          "title": "Invasion 3 Space Jump II",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "fc",
+              "jc",
+              "nd"
+            ],
+            "white": [
+              "cf",
+              "dd"
+            ]
+          },
+          "variationTree": "hcgdhdhejdkciehfjg0<<<<<<<<<",
+          "comments": {
+            "": "Invade Black"
+          }
+        },
+        {
+          "id": "invasions/18d342e8",
+          "title": "Invasion 3 Space Jump III",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "fc",
+              "jc"
+            ],
+            "white": [
+              "cf",
+              "dd"
+            ]
+          },
+          "variationTree": "hcgdhdhejdkciehf0<<<<<<<<",
+          "comments": {
+            "": "Invade Black"
+          }
+        },
+        {
+          "id": "invasions/4af9ccbc",
+          "title": "Large Knight Jump Invasion",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "fq",
+              "jp"
+            ],
+            "white": [
+              "cn",
+              "dp"
+            ]
+          },
+          "variationTree": "hqhpipioiqgpjqkplq0<<<<<<<<<",
+          "comments": {
+            "hqhpipioiqgpjqkplq": "edging in with White 3 is the strongest move. After White secures his stones with 9, Black is left with\ntwo cutting points. He can defend one of them with 10, but there is still another one at ‘a’. Before playing\n3, there is a ladder that White must consider."
+          }
+        },
+        {
+          "id": "invasions/da2f3bff",
+          "title": "Invade to get influence",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "fc",
+              "jc",
+              "nd"
+            ],
+            "white": [
+              "cf",
+              "dd",
+              "hc"
+            ]
+          },
+          "variationTree": "hbgbgcibhdicidjbkckblc0<<<<<<<<<<<",
+          "comments": {
+            "": "White just played A"
+          }
+        },
+        {
+          "id": "invasions/47b4d853",
+          "title": "Invasion Generic",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "dd",
+              "gc",
+              "jb",
+              "jd",
+              "lc",
+              "oc",
+              "pc",
+              "qd",
+              "qf"
+            ],
+            "white": [
+              "ic",
+              "kd",
+              "mb",
+              "md",
+              "nc",
+              "od"
+            ]
+          },
+          "variationTree": "jckcldibhchbje0<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/89bca92a",
+          "title": "Defend 5 space invasion",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "dd",
+              "fd",
+              "kc",
+              "pd",
+              "pf",
+              "qj"
+            ],
+            "white": [
+              "cf",
+              "hc",
+              "nc"
+            ]
+          },
+          "variationTree": "heffpcqcqbrbkeldlemdqdrcpeodndoene0<<<<<<<<<<<<<<<<<",
+          "comments": {
+            "": "How to defend Black 1"
+          }
+        },
+        {
+          "id": "invasions/754337ea",
+          "title": "Defend 3 space extension invasion on third line",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "cc",
+              "dd",
+              "dp",
+              "fd",
+              "jd",
+              "jp",
+              "nd",
+              "np",
+              "pd",
+              "pp"
+            ],
+            "white": [
+              "bd",
+              "cf",
+              "ci",
+              "lc",
+              "pj",
+              "qf",
+              "qn"
+            ]
+          },
+          "variationTree": "ldmcmdkcjcpbkdnc0<<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/8dfa9515",
+          "title": "Crosscut invasion",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "dd",
+              "df",
+              "dj",
+              "ic",
+              "jd",
+              "me",
+              "nd",
+              "pd"
+            ],
+            "white": [
+              "id",
+              "jc",
+              "ld",
+              "pj",
+              "qf"
+            ]
+          },
+          "variationTree": "jehcibhbjbkckblbmclchdieifhegdhfgclejflfhg0<<<<<<<<<<<<<<<<<<<<<",
+          "comments": {
+            "": "A ladder towards the left would\nbe favorable for Black."
+          }
+        },
+        {
+          "id": "invasions/4180ff24",
+          "title": "Corner Invasion I",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "cc",
+              "dd",
+              "fd",
+              "jd",
+              "md",
+              "nd",
+              "oc",
+              "pd",
+              "qc"
+            ],
+            "white": [
+              "bd",
+              "cf",
+              "ci",
+              "mc",
+              "pb",
+              "pc",
+              "pj",
+              "qd",
+              "qf"
+            ]
+          },
+          "variationTree": "qbobnbncodmbqe0<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/9a18883a",
+          "title": "Invade the Top I",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "jc"
+            ],
+            "white": [
+              "mc",
+              "pc",
+              "qf"
+            ]
+          },
+          "variationTree": "ndncqdpdqeperfqgrgqhqc0<<<<<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/b59175eb",
+          "title": "Defend Base I",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "cd",
+              "ec",
+              "hc",
+              "lc",
+              "oc"
+            ],
+            "white": [
+              "jc",
+              "kd",
+              "od",
+              "pc",
+              "qf",
+              "qj"
+            ]
+          },
+          "variationTree": "pbpdncqb0<<<<",
+          "comments": {
+            "": "How to respond to WHite 1?"
+          }
+        },
+        {
+          "id": "invasions/5585cf22",
+          "title": "Defend Base II",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "hc",
+              "nc",
+              "pe"
+            ],
+            "white": [
+              "jc",
+              "lc",
+              "pc",
+              "qe",
+              "qf"
+            ]
+          },
+          "variationTree": "pbqcne0<<<",
+          "comments": {
+            "pbqcne": "If Black gets to play _ strikes at 2. Clearly, this is the vital\nat ‘a’ later, he will have made a __ point of the whole position.\nwonderful shape."
+          }
+        },
+        {
+          "id": "invasions/7a2f7e3f",
+          "title": "Defend Base III",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "ic",
+              "mc"
+            ],
+            "white": [
+              "kc",
+              "ld",
+              "od",
+              "qd"
+            ]
+          },
+          "variationTree": "pcqcocpdmdmekbjblbjcnb0<<<<<<<<<ocpdpeqcqeobnbpbncrdrerc0<<<<<<<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/f3b38de0",
+          "title": "Invade the Top II",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "nc",
+              "ne",
+              "qd"
+            ],
+            "white": [
+              "ic",
+              "lc",
+              "qf",
+              "qi"
+            ]
+          },
+          "variationTree": "qcpdrdrercqeob0<<<<<<<",
+          "comments": {
+            "": "Black's position at the top right is vulnerable. Where should White in-\nvade?"
+          }
+        },
+        {
+          "id": "invasions/10f1f6a4",
+          "title": "Defend Base IV",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "fd",
+              "ic",
+              "mc"
+            ],
+            "white": [
+              "kc",
+              "md",
+              "od",
+              "qd"
+            ]
+          },
+          "variationTree": "ndnencldqb0<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/6852657b",
+          "title": "4-4 Large Knight Enclosure Invasion",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "mc",
+              "pd",
+              "qj"
+            ],
+            "white": [
+              "jc"
+            ]
+          },
+          "variationTree": "qdqcqepcqhojoh0<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/0d8adc45",
+          "title": "Invade Top III",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "hc",
+              "qg",
+              "qj"
+            ],
+            "white": [
+              "jc",
+              "pc",
+              "pe",
+              "rf"
+            ]
+          },
+          "variationTree": "lckdocodncpbme0<<<<<<<",
+          "comments": {
+            "": "Where should Black invade?"
+          }
+        },
+        {
+          "id": "invasions/3b8b105e",
+          "title": "Reply to Push and Cut I",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "mc",
+              "pd",
+              "pe",
+              "qc",
+              "qf",
+              "qj",
+              "rc"
+            ],
+            "white": [
+              "jc",
+              "of",
+              "pf",
+              "qd",
+              "qe"
+            ]
+          },
+          "variationTree": "qgrfodpcrgreoh0<<<reoepcoc0<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/9e96bdc3",
+          "title": "Defend Base IV",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "jc",
+              "nd",
+              "od",
+              "pd",
+              "qe",
+              "re"
+            ],
+            "white": [
+              "oc",
+              "pf",
+              "qc",
+              "qf",
+              "qi"
+            ]
+          },
+          "variationTree": "nbncobmbrb0<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/5d031044",
+          "title": "Erase Moyo Potencial I",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "pd",
+              "qc",
+              "qf"
+            ],
+            "white": [
+              "cc",
+              "df",
+              "kc",
+              "nc",
+              "pb"
+            ]
+          },
+          "variationTree": "jdjcidkdjfkehg0<<<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/a10aeac4",
+          "title": "Erase Moyo Potencial II",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "fc",
+              "id",
+              "nm",
+              "oc",
+              "oq",
+              "pn",
+              "pp",
+              "qd",
+              "qj"
+            ],
+            "white": [
+              "cn",
+              "dd",
+              "dg",
+              "dp",
+              "jp",
+              "no",
+              "nq",
+              "nr"
+            ]
+          },
+          "variationTree": "oendpdpcqerdpiqiphpjniojmf0<<<<<<<<<<<<<",
+          "comments": {
+            "": "hen Black considers the top important, he will play 2. In that case,\nWhite will focus his attention on the right side. Try to think a few moves\nahead and give White a shape that is not heavy."
+          }
+        },
+        {
+          "id": "invasions/4a2c5bdf",
+          "title": "Erase Moyo Potencial IV",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [
+              "cj",
+              "pc",
+              "qe"
+            ],
+            "white": [
+              "ce",
+              "ch",
+              "dc",
+              "jd",
+              "mc"
+            ]
+          },
+          "variationTree": "hchejbkcfc0<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/2c47c2c0",
+          "title": "Erase Moyo Potencial III",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "ck",
+              "cp",
+              "do",
+              "ic",
+              "nq",
+              "oc",
+              "oe",
+              "pq",
+              "qd",
+              "qn",
+              "qq",
+              "rp",
+              "rq"
+            ],
+            "white": [
+              "cf",
+              "dd",
+              "eq",
+              "hq",
+              "op",
+              "ph",
+              "pp",
+              "qf",
+              "qk",
+              "qo",
+              "qp",
+              "ro"
+            ]
+          },
+          "variationTree": "jdidjekbiegdkclcldjckd0<<<<<<<<<<<",
+          "comments": {
+            "": "White’s stones don’t seem to have any weaknesses. Therefore, this would be a good time to attack Black’s moyo. How should White play?"
+          }
+        },
+        {
+          "id": "invasions/ee72d3ef",
+          "title": "4-4 enclosure Submarine Invasion",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "dd",
+              "fc"
+            ],
+            "white": []
+          },
+          "variationTree": "bdcdbebcbbccch0<<<<<cccg0<bfccdcbbcfdb0<<<<<<<",
+          "comments": {
+            "bdcdbebcbb": "Black will either answer at B5, allowing White to connect under at a in the endgame, or at a, giving White some aji in the corner.",
+            "bdcc": "White has not much to do in the corner, and extends along the left side.",
+            "bdbf": "With B1, Black tries to confine White to the corner.",
+            "bdbfccdcbbcfdb": "After B7, White usually plays elsewhere. So a is left as a very large point for both sides - note that when Black plays a, the best White can get in this corner is a ko."
+          }
+        },
+        {
+          "id": "invasions/8b2146a5",
+          "title": "2-4 Probe against a low corner enclosure",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "ce",
+              "dc"
+            ],
+            "white": []
+          },
+          "variationTree": "dbeccccdbcebca0<<<<ebcbfcfdgc0<<<<<cbecddhc0<<<ebecedfcfbgcgbhcccjc0<<<<<<<<<<<",
+          "comments": {
+            "": "White W1 probes against the low corner enclosure. \n\nHis intention is usually to stop black from making territory in front of his shimari. \n\nBecause the corner starts out as black territory, white has to play light and flexible. \n\nHis stones will often end up being light or even downright sacrificed.",
+            "dbcb": "Black chooses to protect the corner"
+          }
+        },
+        {
+          "id": "invasions/e850a03c",
+          "title": "3-3 Probe against a high corner enclosure",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "dc",
+              "de"
+            ],
+            "white": []
+          },
+          "variationTree": "cccdecdbeddd0<<<dbcbecbchc0<<<ecbc0<<<<<",
+          "comments": {}
+        },
+        {
+          "id": "invasions/64e5f5f4",
+          "title": "Tripod 2-4 Probe low corner enclosure",
+          "boardSize": 19,
+          "subBoardSize": 19,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "white",
+          "initialStones": {
+            "black": [
+              "ce",
+              "dc"
+            ],
+            "white": []
+          },
+          "variationTree": "dbeccccdbcebca0<<<<<<<",
+          "comments": {
+            "": "Probe using a tripod"
+          }
+        },
+        {
+          "id": "invasions/e66dd987",
+          "title": "Invasion 3 Space Jump I",
+          "boardSize": 13,
+          "subBoardSize": 13,
+          "topLeft": [
+            0,
+            0
+          ],
+          "first": "black",
+          "initialStones": {
+            "black": [],
+            "white": [
+              "ec",
+              "ic"
+            ]
+          },
+          "variationTree": "gcgdfdfchdgbgehbhc0<<<<<<hdhcfdgbgefbfc0<<<<<<<<<",
+          "comments": {
+            "": "Invade white"
+          }
+        }
+      ]
+    },
+    {
+      "id": "corner-patterns",
+      "title": "Corner Patterns",
+      "josekis": [],
+      "children": [
+        {
+          "id": "4-4",
+          "title": "4-4 point (hoshi)",
+          "josekis": [
+            {
+              "id": "4-4/de0a580b",
+              "title": "Response (O17)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "ncrdqcqiqgrgrfpgqeqhpfqgre0<<<pfre0<<<rerhsfqh0<<<<<qhqerepfrf0<<<<<<<qhqcqerepfpgqgrfog0<<<<<<<ofqcpi0<<<<<<",
+              "comments": {
+                "ncrd": "Black's common simple continuations are A, B, and tenuki (play elsewhere).",
+                "ncrdqcqi": "A is rare but is sometimes correct for efficiency and potential maximization when white has a certain kind of position facing here from the lwoer right. Generally, the two-space low extension seen here is nearly always the move to play. White cannot omit this move.\n\nB or C instead are mistakes in this shape that people commonly make instead of playing R11, especially B. The basic idea comes down to the fact that the marked exchange allows black some corner territory in exchange for ones own territorial expansion, and therefore, white must ensure that the position he forms is actually territory…",
+                "ncrdqcqiqg": "Late in the middlegame the opponent may try this. This move can be correct for black in some situations, but not as an attempt to separate white. Instead, it's an advanced technique (albeit rarely used) for gaining outside stones in sente, and should assume that black plays correctly at C.\n\nAlthough you must base your choices on the whoel board and the goals in a given glocal or local situation, A and B are generally inferior to the vastly unknown reply at C, which completely connects white (feel free to explore variations).\n\nThus, C is generally correct and A/B are generally incorrect (see va…",
+                "ncrdqcqiqgrgrf": "This tesuji combination can allow black to make a small sacrifice in order to separate white from his stone at A or B, depending on black's response.",
+                "ncrdqcqiqgrgrfpgqepfre": "Aji is leftover",
+                "ncrdqcqiqgqhqerepfrf": "This is an uncommon and territory-insensitive way of getting forcing moves against white in sente. It must be played assuming white might allow black to crosscut as in the other variations.\n\nIt has negative consequences for black's corner, but it can be really useful in certain situations. Black usually plays elsewhere now (presumably a move in a nearby fight), as things like A or B will be sente at any time and there's no reason to choose which one right away. Unless it's endgame, B would be a bad move by white. Black need not continue here unless he needs a stone specifically at A or B.",
+                "ncrdqh": "It's advisable for black to have some kind of position or at least an approach move over around A or thereabouts, because this joseki will build a wall that faces there.",
+                "ncrdqhqc": "It's natural to come into the corner since black has deprived white of points on the right side with his pincer.\n\nNext, it's natural for black to try to connect up, since he should want to turn Q16 and R12 into useful, well-placed stones. If left alone, Q16 won't be doing much, and R12 would look like a pincer played against a healthy group, which essentially just becomes a poorly placed early game move. This would become the case if white jumps out now (on the other hand, if white jumps out instead of R17, we just take R17 and get territory on both sides while white tries to settle in the cen…",
+                "ncrdqhqcqerepfpg": "Even if this stone gets captured, it becomes bothersome enough to black that he will have to spend two moves to capture one stone. White ends up a little faster on the board as a result (though black becomes thick; it's balanced).",
+                "ncrdqhqcqerepfpgqgrfog": "If black has the ladder, he plays this atari. It's not an absolute requirement to capture this stone (black could choose A), but locally it would be a little favourable for white. Generally, black should check this ladder before the original pincer at B.",
+                "ncrdqhofqc": "White is worse off.",
+                "ncrdqhofqcpi": "White could settle easily with this, but given that the right side will not be white's territory, the exchange of A for B is very bad for white. White would rather save a full-on corner invasion at B for himself."
+              }
+            },
+            {
+              "id": "4-4/88b7ea82",
+              "title": "Response (O16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "ndrdqcqijc0<<<<<",
+              "comments": {
+                "nd": "This is similar to A, but stresses influence and potential. Because of it's high position, it's vulnerable from underneath (around B, for example), so this move is most often chosen when black is willing to lose sente by spending it on an additional move after that claims territory on the top (C...). A is common as an alternative because it usually gains sente.",
+                "ndrdqcqijc": "This is the basic idea"
+              }
+            },
+            {
+              "id": "4-4/0334b98b",
+              "title": "Attachment (Q14)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "pfpgofqeqdqind0<<<<qeofpeogqgqhrfrgnd0<<<<<qgog0nd0<rfogphohpinfreqc0<<<<<<<<<<<<<",
+              "comments": {
+                "pfpgofqeqdqi": "I suggest this extension, but A is perhaps more common (it has more weaknesses), and B is sometimes the best.\n\nB is the most invulnerable shape, and is usually used in order to improve efficiency with a position in the south (make a larger area of distance and thus greater efficiency). B is advanced and easy to misuse. A is very common but it's easy to fall victim to exploitations. R11 is less common but is played by many strong players.",
+                "pfpgqeofpeogqgqhrfrgnd": "White plays elsewhere now. If you don't like white, then give this a try as black!",
+                "pfpgqeofpeqgog": "Fighitng"
+              }
+            },
+            {
+              "id": "4-4/4ff096de",
+              "title": "One-space low pincer (R12)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "qhqcqdpcodrdrercqenc0<<<<<<<pcqdperfog0<<<<<ncoeqcqdpcmdodpelb0<<<<<<<pfqcpcqdqereperfpbjdrbqg0<<<<<<<<<<pgqgqcqepc0<<pcqeqc0<qcpeofqdodoeneqe0<<<<<<<<<<<<ndoeqcqdpcodocnemd0<<<<<<<pfpgqgpcqeqc0<qcpe1<<<<<<<<",
+              "comments": {
+                "qhqc": "With a stone around A/B, C is chosen. otherwise, D is chosen.",
+                "qhncpf": "Common",
+                "qhncpfpg": "Common hane",
+                "qhncpfpgqgqcqepc": "Common variation",
+                "qhncpfpgqgpcqeqc": "Reversion to a normal variation",
+                "qhncpfpgqgpcqc": "Leads to complication",
+                "qhndoeqcqdpcodocnemd": "Not popular for black",
+                "qhndpf": "Popular response",
+                "qhndpfpgqgpc": "Next is D. Unlike with the case of A at C, B is not possible here.",
+                "qhndpfpgqgpcqc": "Doesn't work!"
+              }
+            },
+            {
+              "id": "4-4/adfd4bd8",
+              "title": "Response (Q11)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "piofndrdqcri0<<<<qcqdpcodrdrercqenc0<<<<<<<<ncpfpgofqcpcqdqerepergog0<<<<<<qepcog0<<<<<qcpcqdqerepergqgrf0<<<<<<<<<<<<",
+              "comments": {
+                "piofndrdqcri": "The pincer at C is chosen more often with a stone at A/B already. In that context, black D is a good follow-up.",
+                "pincpfpgofqcqepcog": "A instead is also possible"
+              }
+            },
+            {
+              "id": "4-4/235c153b",
+              "title": "Response (N17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "mcqcqdrdrercqeobnd0<<<<<<<<<",
+              "comments": {
+                "mcqc": "If black extends that kind of distance in response to an approach move, it's common to jump right in."
+              }
+            },
+            {
+              "id": "4-4/5db22732",
+              "title": "3-3 point (S15)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": [
+                  "qf"
+                ]
+              },
+              "variationTree": "rerfqepfncqj0<<<<ncocndof0<<<<<",
+              "comments": {
+                "rerfqepfncqj": "White is not bad at all. For pros, this is unpopular for black in most cases.",
+                "rencocndof": "Fighting variation"
+              }
+            },
+            {
+              "id": "4-4/f161f2b1",
+              "title": "High approach (Q14)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "pfndqdqcqercqjjc0<<<<<qcqdpbnbrdrercqfncob0<sdrbqara0<<<<<<<<rcrbpcqbrdnbmbobmc0<<<<<<<<<rdpcrbqbrcpbqerfqgrg0<<<<<<<<rercqfob0<<<<<<pjqfqgqe0<<<qjjcrdqeqfrerfrcseqd0<<seoc0<<<<<<qfqgqe0<<<<lcmejdqj0<qjkd0<<<<pjndoeqcqdpcofodpg0pemf0<<<<<pcqdqeperepbobodoc0<<<<<<<<<<pcnfnb0<<qc0<<phqdqcpcodqbrcrbqerdresc0<<<<<<<percqbrbocpbqerdob0<<<<pbocobncnb0<<<<<<<<qbodpbocrdqeob0<<<<<<rc0<<<<qhndpcphqgqfpgofognfncldmc0<<<<<<<<<<<<qfqgqephncqk0ql0<<<<qepeqgrf0<<<peqeodocpcqdncobnenbmcpg0<<<<<<<<<<<<qjndoeqcqdpcofodpg0<pgoiodpeogmf0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "pf": "Ikken Takagakari = Hankan Nop'dakeolch'im = Yi Gaojia = 1-Space High Approach\n------------------------------------------------------------------------------\\\n\nBlack typically responds at 'a *' or 'g *'. Black 'b' is played\nwhen Black finds play on the right side advantageous. Black 'c'\nor 'd' may be played when Black has support at top.\n\nBlack 'e' shows White follow-up if Black plays elsewhere.\n\nBlack 'f' makes territory like 'a', but forgets to care for additional\ninfluence which is created by 'a'.\n\nf6, e5, d4, c3, b2, a1",
+                "pfnd": "Ikken Tobi = Hankan Ddwim = Yi Tiao` = 1-Space Jump\n\nWhite continues with 'a *'. White 'b' to 'e' are not recommended.",
+                "pfndqc": "White 4 contradicts the strategy of enphasizing the center with\nthe high approach move.",
+                "pfndqcqd": "'A' is correct. 'B' is questionable.",
+                "pfndqcqdpb": "'A' leaves a possibility to kill White, 'B' doesn't.",
+                "pfndqcqdpbnbrdrercqf": "Later, Black 'A' is a threat to kill,\nBlack 'B' kills if Black has the ladder.",
+                "pfndqcqdrd": "'A' attempts to attack White, 'B' just lets him settle himself.",
+                "pfndqcqdrdpcrbqbrcpbqerf": "And Black attacks White's weakness.",
+                "pfndpj": "White 4 prior to taking part of the corner is not recommended.",
+                "pfndpjqf": "Black solidifies the corner.",
+                "pfndqjjc": "Later White A or Black B.",
+                "pfndqjjcrdqeqfrerf": "'A' is easier than 'B'.",
+                "pfndlcme": "'A' or 'B'.",
+                "pfpj": "Sangen Takabasami = Sekan Nop'dahyeopgong = San Gaojia = 3-Space High Pincer",
+                "pfpjnd": "Black responds with 'a' to 'c'.",
+                "pfpjndoeqc": "Black continues with 'a'. Black 'b' is not recommended.",
+                "pfpjndoeqcqdpcofod": "Black continues with 'a' or 'b'.",
+                "pfpjndoeqcpc": "Black 7 is the wrong direction.",
+                "pfph": "Ikken Takabasami = Hankan Nop'dahyeopgong = Yi Gaojia = 1-Space High Pincer\n\nThis situation arises when Black has support at top.",
+                "pfphqdqcpc": "White must have the ladder to play this way (especially for d4).\n\nBlack has various continuations.",
+                "pfphqdqcpcpercqbrb": "Black continues at 'a' or 'b'. \n\nBlack 'a' is more sensible, as Black yields the corner for thickness.",
+                "pfphqdqcpcpercqbrbpb": "Black crawls along the second line (the line of defeat).",
+                "pfphqdqcpcrc": "White must have the ladder to play this way.",
+                "pfqh": "Ikken Basami = Hankan Hyeopgong = Yi Jia = 1-Space Low Pincer\n\nBlack 3 was played by Kitani Minoru against Iwamoto Kaoru in\ngame 3 of the 4th Honinbo title in November, 1947.",
+                "pfqf": "Tsuke-Hiki = Attach to draw back\n\nWhite continues with 'a'. With a favorable ladder to the lower\nleft, White may consider 'b'.\n'c' is not recommended.",
+                "pfqfqgqephnc": "'A' or 'B'.",
+                "pfqfqgqephncqk": "Unlike Black 3 onto the squared position, Black has no strong\ncontinuations into the center.",
+                "pfqfqe": "White must have the ladder to the lower left to play this way.",
+                "pfqj": "Sangen Basami = Sekan Hyeopgong = San Jia = 3-Space Low Pincer",
+                "pfqjndoeqcqdpcof": "'A *' is joseki, 'B' is more complicated."
+              }
+            },
+            {
+              "id": "4-4/474e80ce",
+              "title": "High approach (Q13)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "pgndqkjcqd0<<qdqcqercpeodqkjc0<<<<<peodrercqkjc0<<rdqerc0<<<<<rcpcqerbqkjc0<<<<qerdpcpepfoeqgofqf0<<<<oepfrbrejc0<<<<<<<<<<qe0<<qjncndmdneocpcodoepemcmblc0<<pblcpf0<<<<<<<<<<<ndoengneldmemdlekdohoglg0<<<kekdjdkc0<<<<<lemdmclckclb0<<<<<<<<<ldnemengpipjoimflflg0<<<<<<<<<neofpipjoinfmfmglfnh0<<<<<<<<<<<mdnemenfndodpipjoimfqfqe0<<<<<<<<<ndoengmeldlekd0<<<<<<<<odpe1<<qdqcpeodrcrdqerb0<<qbqe0<<qerc0<<<qepc0<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "pg": "Nikken Takagakari = Dukan Nop'dakeolch'im = E`r Gaojia = 2-Space High Approach\\\n\n------------------------------------------------------------------------------\\\n-\n\nWhite 2 is a light approach move. Rarely played in even games,\nWhite 2 is typically employed in handicap games.\n\nBlack continues with 'a *' or 'b *'.\nIn Korean Sunjang Baduk Black has a stone on 'c'.\n\nSunjang Baduk\n\nOpening position of the traditional Korean Sunjang Baduk.\n'A' is the only possibility for a joseki that doesn't sacrifice\nthe outside stone by taking the corner.",
+                "pgnd": "Ikken Tobi = Hankan Ddwim = Yi Tiao` = 1-Space Jump\n\nWhite continues with 'a *' or 'b *'.",
+                "pgndqkjcqd": "The continuations are the same as without the marked extensions.",
+                "pgndqd": "Black continues with 'a *' or 'b'. Black 'a' gives a clear-cut\ndivision of territory: Black at top, White at right. Black 'b'\noffers White choices.",
+                "pgndqdqc": "White continues with 'a *' to 'c'.",
+                "pgndqdqcpeodre": "'A' is correct. 'B' is bad, because the aji at C is destroyed.",
+                "pgndqdqcrc": "Black continues with 'a' or 'b'.",
+                "pgndqdqcrcqerdpcpe": "Black continues with 'a' or 'b'.",
+                "pgqj": "Nikken Basami = Dukan Hyeopgong = E`r Jia = 2-Space Low Pincer\n\nWhite continues with 'a *' to 'd'.",
+                "pgqjncndmdneocpcodoepe": "'A *' and 'B *' are joseki. 'A' gives a large corner for huge\ninfluence. 'B' gives White the choice to give the corner or the\night side.",
+                "pgqjndoe": "White continues with 'a'. White 'b' and 'c' are not recommended.",
+                "pgqjndoengneldme": "White continues with 'a'. White 'b' is unreasonable.",
+                "pgqjndoengneldmemdle": "White must extend with 'a'. The White hane of 'b' is unreasonab\\\nle.",
+                "pgqjndoengneldmemdleke": "White 12 is unreasonable.",
+                "pgqjndoengneldmele": "White 10 is unreasonable.",
+                "pgqjndoeld": "White 6 is not recommended.",
+                "pgqjndoene": "White 6 is not recommended.",
+                "pgqjmd": "'A' or tenuki 'B'.",
+                "pgqjmdne": "White continues with 'a' or 'b'.",
+                "pgqjmdnemenfndodpipjoimf": "Later, White continues on A.",
+                "pgqjmdnendoengmeldlekd": "For continuation see the variation referenced by the numbers.",
+                "pgqjod": "Black continues with 'a'. Black 'b' or 'c' are a mistake, as\nWhite cross-cuts, and has the advantage of the nearby stone.",
+                "pgqdqc": "'A' is correct, 'B' is not recommended.",
+                "pgqdqcpeod": "'A' is correct, 'B' is wrong.",
+                "pgqdqcpeodrc": "'A' is correct, 'B' is too shy.",
+                "pgqdqcpeodqerc": "White has a target to be attacked, Black has many points.",
+                "pgqdqcqepc": "Now White cannot make an extension so he has no eye space."
+              }
+            },
+            {
+              "id": "4-4/0ff6dc17",
+              "title": "Low approach (R13)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "qgmcrdqcqjrfqfreqeqdrgrc0<<<<<qeqfpfrgqhreqdpe0<<<<<<<<<<<qcqdpcocobncrdrercqf0<<<<<<<<<qdqcqepc0<peodrerc0<<<<<<qeqjncqcpcrerdrfrc0<<rfrdqfpbobqb0<<<<<<rdrepbobrbpaqaqb0<<<<rbqbobrasb0<<<<<<<<<<<mcocqcobrerdqdrcpeqfrfpf0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "qg": "Nikken Kakari = Dukan Keolch'im = E`r Gua`jiao~ = 2-Space Low Approach\n\nTwo of the answers for Black are 'A *', which is joseki, and\n'B'.",
+                "qgmc": "'A *', 'B' or 'C'.",
+                "qgmcrdqcqj": "Although this is considered as joseki, Black has an unpleasant\nfollow-up on A.",
+                "qgmcrdqcqjrf": "White should answer on 'A'. Resistance on 'B' is futile, as White\n4 is lost.",
+                "qgmcqcqdpcocobncrdrercqf": "Black has not captured the marked stone, so the position is good\nfor white..",
+                "qgmcqdqc": "'A' or 'B'.",
+                "qgqe": "'A' is usual.\n'B' shows the Three Crows.",
+                "qgqeqjncqcpc": "'A' or 'B' are ok.",
+                "qgqeqjncqcpcre": "'A' is correct, 'B' loses the corner.",
+                "qgqeqjncqcpcrdrepb": "'A' or 'B' -> Ko.",
+                "qgqemcoc": "Three crows.",
+                "qgqemcocqc": "White can't kill."
+              }
+            },
+            {
+              "id": "4-4/0e1853da",
+              "title": "Low approach (R11)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "qiqkqfqepfndqcpcreqdrdrcrgrf0<rbqb0<<<<rdqdrcpeqb0<<<<<<reocodncpcpbmc0<<<nbncobmb0<<pcpbnc0<<<pcncrb0nbmb0<<<<<<qdpbpcrbobrdre0<<rcqbrd0<<<<nbrdrercsd0<<<<<<<<ncqcpcreqdrdrcrgrf0<<<<<<reobnbodocpc0<<ocodrcnd0<<<<<<<pbpc0ob0<<<<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "qi": "White may try 2 when Black has already played at top as shown.",
+                "qiqkqfqepf": "'A' is correct, 'B' is also possible without the triangles stone-.",
+                "qiqkqfqepfndqc": "Black continues with 'a', if White is already safe, e.g. with an addi\\\ntional stone on the triangled position, or 'b *', to kill one side. Black 'c' \\\nis a special tactic.",
+                "qiqkqfqepfndqcpcre": "'A' is correct, 'B' is the wrong choice, when Black has a secure ba\\\nse, here garantueed by the triangled stone.",
+                "qiqkqfqepfndqcpcreqd": "White should play elsewhere and immediately at 'B' what is only y\\\nose.",
+                "qiqkqfqepfndqcpcreqdrdrc": "Black punishes on 'A', if White  12 was too early.\nWhite's endgame is on 'B'.",
+                "qiqkqfqepfndqcre": "Black 9 shows an uncompromising attitude. Black accepts a reduction\\\n\nat top for an attack on the three White stones at right.",
+                "qiqkqfqepfndqcreocod": "White lives with 'A', 'B' or 'C'.",
+                "qiqkqfqepfndqcreocodncpcpbmc": "White continues with 'a' to live in the corner, 'b' to live on\nthe top.",
+                "qiqkqfqepfndqcreocodnb": "'A' is correct, 'B' is questionable.",
+                "qiqkqfqepfndqcreocodpcnc": "'A' -> White lives.\n'B' -> White dies.",
+                "qiqkqfqepfndqcqdpb": "White 10 is the right move when the time comes, after the White\ngroup on the right is secured.\nBlack 'A' is usual, 'B' doesn't make sense without extra strength.",
+                "qiqkqfqepfndqcqdpbpcrb": "'A' is correct, 'B' doesn't kill.",
+                "qiqkqfqepfnc": "'A' or 'B' are ok.",
+                "qiqkqfqepfncqc": "'A' is ok, 'B' is questionable.",
+                "qiqkqfqepfncqcpcreqd": "White should play elsewhere and not immediately play 'B'.",
+                "qiqkqfqepfncqcpcreqdrdrcrg": "Soon the punishment.",
+                "qiqkqfqepfncqcreobnb": "'A' or 'B'.",
+                "qiqkqfqepfncpb": "'A' or 'B' are possible."
+              }
+            },
+            {
+              "id": "4-4/fe62c43d",
+              "title": "Attachment (R16)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "qdqcqercqh0<pcqhpe0<<<<qeqcpcreqfrfqgpbobqbnc0<<<<<<rfqfpergrdsfrc0<<<<<<<<repc0<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "qd": "White 2 is exceptional, used only when 'a' and 'b' are miai.",
+                "qdqcqe": "Black continues with 'a' or 'b'.",
+                "qdqcqerc": "White continues with 'a'. White 'b' is recommended only if a\nBlack play at 'c' is not disadvantageous (forcing Black along\nthe fourth line is generally bad).",
+                "qdqeqc": "Black continues with 'a' or 'b', depending upon the side of interest.",
+                "qdqeqcpcre": "Black continues with 'a' for thickness, or 'b' for the corner."
+              }
+            },
+            {
+              "id": "4-4/c880f5c7",
+              "title": "Low approach (R12)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "qhqfncpb0<obpclc0<pbpcqcocqbodpe0<<<<ocqcodqbnbpamc0<<<<<<<peocqeoepfqd0<<<<oepcqcoc0<<qdqcodpcofneqepf0<<<<<<<<qepcqcocqbodqdog0<<<odqbrbpa0<<<<<ocqcodqbnbpamc0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "qh": "Sangen Kakari = Sekan Keolch'im = San Gua`jiao~ = 3-Space Approach",
+                "qhqf": "This is the only local continuation for Black. White can approach\non 'A' or 'B'.",
+                "qhqfob": "'A' or 'B'.",
+                "qhqfobpb": "'A' is the usual continuation, 'B' is trick move.",
+                "qhqfobpbpc": "Black keeps the corner on 'A' or goes outside on 'B'.",
+                "qhqfobpbpe": "Black plays on 'A' or 'B' or falls into White's trap on 'C'.",
+                "qhqfobpbpeoe": "'A' emphasizes the top, 'B' the right.",
+                "qhqfobpbpeqepc": "'A' or 'B'.",
+                "qhqfobpbpeqepcqcoc": "'A' or 'B'.",
+                "qhqfobpbpeqepcqcocqbodqd": "Now Black 7 is positioned inefficient. White is better than\\\n in\nthe same sequence without playing 6 beforehand.",
+                "qhqfobpbpeqepcqcocodqbrbpa": "As A and B are miai, White gets one follow-up move in sente\\\n and\nis better."
+              }
+            },
+            {
+              "id": "4-4/15139da7",
+              "title": "Low approach (R10)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "pd"
+                ],
+                "white": []
+              },
+              "variationTree": "qjqlqf0<<<",
+              "comments": {
+                "": "Hoshi = Hwajeom, Seongjeom = Xingwei` = Star Point\n\nThe star or hoshi (4-4) point, emphasizing influence at the potential\nexpense of territory.\n\nThe first experiments with the star point were around 1840 in\nJapan; its first appearances in pro games date to the early 1900's.\nIts rise to preeminence came during the 'New Fuseki' movement\nin Japan in the mid-1930's.\n\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. White 'a'\nis the standard approach move, the variations after it cover\nthe great majority of hoshi joseki.\nOther approaches invite a local loss, but may make sense strategically.\n\n'e…",
+                "qjqlqf": "These variations are included as Hoshi-Tenuki-Nirensei variations."
+              }
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "title": "3-4 point (komoku)",
+          "josekis": [
+            {
+              "id": "3-4/d53fc792",
+              "title": "Attachment (P17)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "ocncpcndqfjc0<<mdqfic0<<<obpdqcqend0<ndqf0<<<ndpdog0<<<<<<",
+              "comments": {
+                "oc": "Really common joseki, played a lot in high level games as well.",
+                "ocncpcndqfjc": "A is also possible, depending on the situation.",
+                "ocncob": "Shape move is normally A, but B is correct here. See variations.",
+                "ocncobpdqcqend": "Black is better",
+                "ocncobpdqcndqf": "Black is better",
+                "ocncobndpdog": "Even, and an unpopular joseki for black. This might be strong for black in kyu levels though, because the reason for preference for white is very technical and reading-based."
+              }
+            },
+            {
+              "id": "3-4/66084a5d",
+              "title": "Knight's-move pincer (Q14)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "pfqcrcpcrekc0<rbkcqi0<<<<<<<",
+              "comments": {
+                "pfqcrcpcrekc": "A is possible for avoiding sente moves for black.",
+                "pfqcrcpcrb": "Gote variation for maximizing local profit and reduction.",
+                "pfqcrcpcrbkcqi": "This is necessary because it avoids the forced exchange of white A for black B or C."
+              }
+            },
+            {
+              "id": "3-4/e3113fad",
+              "title": "3-3 point (R14)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "qfqcrcpcrbkc0<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "3-4/60c75d9b",
+              "title": "3-3 point (R13)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "qgqcrcpcrekc0<<<<<<",
+              "comments": {
+                "qgqcrcpc": "Black can play elsewhere."
+              }
+            },
+            {
+              "id": "3-4/deb44a43",
+              "title": "Attachment (P15)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "oenepemdnfmfmg0<<<nfndmdncmcobnboc0<<<<<<<<<pdpeqcndqerdrcobrepcsdqdqh0<<<<<<<<<<<<qcpdpcndocpfnemdnfphlfnbnc0<<<<<<<<<oc0<<rcpcreneofqfpdndpijc0<<<<<<<<<<<<",
+              "comments": {
+                "oe": "This is not as essential of a joseki, but it's here for your curiousity",
+                "oenepemdnfmfmg": "Many variations of this.",
+                "oenepenf": "Uncommon choice because black gains a lot of local profit.",
+                "oeqcpdpcoc": "Complicated and ladder-related.",
+                "oeqcrcpcreneofqfpdndpijc": "And old and classic variation"
+              }
+            },
+            {
+              "id": "3-4/222663f9",
+              "title": "Knight's-move pincer (N17)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "mcneqgqcrcpcjcrbqj0<<<<<<<qcrcpcreneqgld0<<<qgmejcrerdqepepdsepf0<<<<<<<<rbrdneqjld0<<<<<<<qgpdrdobjcrcqj0<<rckc0<<<<<pcpdocncndnbqbrcobqembne0<<<<<<<nbqerdndpbmdlcre0<<<<<<<<<<<<<<",
+              "comments": {
+                "mcneqgqcrcpcjcrbqj": "Later white A, black B, white C.",
+                "mcqcrcpcre": "This is the old, classic variation.",
+                "mcqcrcpcqg": "Modern"
+              }
+            },
+            {
+              "id": "3-4/edb71323",
+              "title": "One-space high pincer (N16)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "mdofqfqcrcpcremclcld0<<<<<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "3-4/ef2d2b2c",
+              "title": "Two-space high pincer (M16)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": [
+                  "od"
+                ]
+              },
+              "variationTree": "ldofqfqcrcohqhid0<<<<<<pgoeneofpdqfqcqenfogpbqk0<<<<<<peqcrerdqencrcrb0<<<<<<<<<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "3-4/92c50f57",
+              "title": "Low approach (O17)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "ncpckcicpeqepgqfngqh0<<<<<qfoeqi0<<nemdndpfke0<<mcndodocleldkdoe0<<<<<<<<<<<jdhc1<<odndocnejdoeqfohpgogpj0<<<<<<<<nemeocobpbnboemf0<<<<<<ocpcoe0<<pbmeqcrdlc0<<<<<oepbnememfle0<<<<<<pbld1<<lcqcpc0rcpcrene0oepfofpgleic0<<<<<<<<pdpcodnbme0<<<<<pdpeqcrcpcreoepfrbsbofpg0<<<<<<<<<<<ne0<kdqcpcpdqbrcodpeocrbpgofnd0<<ndpg0<<qfrbrdnd0<<<<<<<<<<<pdqcqeperepcodpfqg0<<<odpcocpbobqbpf0<<<<<<<<<pfqe1<<qeqcrcpcrbofpg0<kb0<<peqfrbqbpcsbogph0<<<<<<<rbqb1<<<<pcqeodpeocqcqbrdnd0<<oerdog0<qb0ofpf0<<<<<<<<peqcrcpcreoepfofpg0<<<<<<qepc0<<<<ne0<kcqcpcpdqbrcodpeocrbpgofnd0<oend0<<ofoene0<<<<<<<<<<<<ldqcpcpdqbrcodpeocrbpgofnd0<<<<<<<<<<<<jdqcpcpdqbrcodpeocrbpgofnd0<<<<<<<<<<<<jcqcpcpdqbrcodpeocrbpgofnd0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "nc": "Nikken Kakari = Dukan Keolch'im = E`r Gua`jiao~ = 2-Space Low Approach\n\nWhite 2 is used with friendly forces backing it up. Its purpose\nis to prevent a pincer. Locally it results in a loss, but may\nbe appropriate fuseki strategy. \n\nIt was popular in the late 1950s and early 1960s, but is not\nseen often nowadays, having been replaced by the one-space high\napproach, with which it has points in common.\n\nBlack responses range from 'a *', 'b *', 'c' or 'd *'. Black\nmay also play elsewhere 'e'.\n'f' is smilar to 'd'\n\n'g', 'h' and 'i' are inferior.\n\nelsewhere e5, d4, c3, b2, a1",
+                "ncpc": "Kosumi = Ibkucha = Jian = Diagonal\n\nWhite continues with 'a *'. The wisdom of White 'b' depends on\nthe left corner.",
+                "ncpckc": "Here is an example where White may try this approach. \n\nBlack continues with 'a'. Black 'b' lacks direction.",
+                "ncpckcic": "White has erased some of Black's left-side enclosure influence,\nbut Black 5 is a good follow-up to White 4.\n\nWhite may continue with 'a' to build a center position, or 'b'\nto emphasize the right side. 'c' appears in the Kobayashi Fuseki.",
+                "ncpckcicpe": "kake (press-down)",
+                "ncpckcicnemd": "'A' or 'B'.",
+                "ncpcjd": "In this case, White 4 is a mistake.",
+                "ncpcjdhc": "Now White must defend at 'A' or 'B'. 'C' shows what happens if\nWhite plays elsewhere.",
+                "ncod": "Kata-tsuki (shoulder-hit)\n\nWhite can respond with 'a *' or 'b'.",
+                "ncodnd": "Usually bad for White\nBlack continues with 'a *' or 'b *'. Black 'c' is not recommended.",
+                "ncodndocne": "Black continues around 'a' or 'b' to erase White thickness.",
+                "ncodndne": "Best punishment\nWhite continues with 'a *'. White 'b' is not recommended, as\nit only strengthens Black. White 'c', also not recommended, presents\na contradiction.",
+                "ncodndnemeocobpbnboemf": "The corner is safe, as one can see from the continuation.",
+                "ncodndneoc": "White 6 is not recommended.",
+                "ncodndnepb": "White's orientation toward influence with 4 contrasts with the\nterritory orientation of 6.",
+                "ncodndoe": "Black 5 is slack.",
+                "ncodpb": "Black continues with 'A' if an extension on the right side is\nfar from the two Black stones or 'B' if it's near. 'C' is pushing\nfrom behind and amateur style.\n'D' is a trick play: see \"New Moves\" book by Alexander Dinerchtein and An Youn\\\nggil",
+                "ncodpbld": "Black 5 is a powerful play.",
+                "nclc": "Ikken Basami = Hankan Hyeopgong = Yi Jia = 1-Space Low Pincer\n\n'A' or 'B' are ok. 'C' is a new development.",
+                "nclcqc": "'A' is the deep-deep-joseki and takes the top side, with 'B'\nBlack keeps the right side.\n'C' is joseki with a stone on the triangled position.",
+                "nclcqcrcpcre": "'A' or 'B'.",
+                "nclcne": "new joseki development",
+                "nckd": "Nikken Takabasami = Dukan Nop'dahyeopgong = E`r Gaojia = 2-Space High Pincer\n\nThe two-space high and one-space high pincer are similar.\n\nWhite continues with 'a *' or 'b'. White 'c' is not recommended.",
+                "nckdqcpcpdqbrcodpeoc": "White continues with 'a *'. White 'b' gives White sente at a\ncost of local loss.",
+                "nckdqcpcpdqbrcodpeocrb": "Black continues with 'a *'. Black 'b' is not recommended.",
+                "nckdqcpcpdqbrcodpeocrbnd": "Black 13 is too mild.",
+                "nckdqcpcpdqbrcodpeocqf": "White 12 is not recommended unless sente is essential.",
+                "nckdpd": "White 4 is a powerful play.\n\nBlack continues with 'a' to 'd'.",
+                "nckdpdqc": "White continues with 'a'. White 'b' makes White 4 pointless.",
+                "nckdpdqcqepere": "Black continues with 'a'. Black 'b' is not recommended, especia\\\nlly\nif White has a favorable ladder to the far corner.",
+                "nckdpdqcqeperepcodpfqg": "The future is uncertain, but fighting is certain.\n\nBlack's pincer at 3 is not in great position, and the three Black\ncorner stones are not quite alive, so White has little to fear.",
+                "nckdpdqcqepereod": "Black 9 is not recommended.",
+                "nckdpdqcqepereodpcocpbobqbpf": "Black must defend with 15 against the cut at 'a'. If the ladd\\\ner\nis favorable, White can cut at 'a' anyway.",
+                "nckdpdqcpf": "White 6 is a mistake.",
+                "nckdpdqeqcrc": "White continues with 'a', or if White has a favorable ladder,\nthe tough double hane of 'b'. White 'c' is also possible.",
+                "nckdpdqeqcrcpcrb": "White typically continues with 'a', but may choose 'b' with a\nlater aim.",
+                "nckdpdqeqcrcpcrbof": "A possible continuation.",
+                "nckdpdqeqcrcpcrbkb": "White plays 10 to provide a base for his stones so as to play\\\n\n'a' later.",
+                "nckdpdqeqcrcrb": "White must have the ladder to play this way.\n\nBlack continues with 'a'. Black 'b' shows the ladder setup, playable\nonly if Black has the ladder to the opposite corner (in which\ncase White 8 is a mistake).",
+                "nckdpdpcqeodpeocqc": "Black continues with 'a'. Black 'b' favors White.",
+                "nckdpdpcqeodpeocqcqbrdnd": "As 'a' and 'b' are miai, White may continue elsewhere.",
+                "nckdpdpcqeodpeocqcoe": "White continues with 'a'. White 'b' creates aji for Black. Whit\\\ne\n'c' is not recommended.",
+                "nckdpdpcqeodpeocqcoerdog": "Black must play 13 or White plays 'a'.",
+                "nckdpdpcqeodpeocqcoeqb": "White 12 creates aji for Black.",
+                "nckdpdpcqeodpeocqcoeof": "White 12 is not recommended.",
+                "nckdpdpcqeodpeocqcoeofpf": "A fight ensues with good odds towards Black.",
+                "nckdpdpeqc": "Black continues with 'a'. Black 'b' is less favorable.",
+                "nckdpdpeqcqe": "Black 7 is not recommended.",
+                "nckdpdpeqcqepc": "White is satisfied to have some corner profit and be sufficient\\\nly\nsettled. \n\nA Black extension to 'a' in gote is not recommended unless it\nworks toward the bottom right corner.",
+                "nckdne": "White 4 is not recommended.",
+                "nckc": "Nikken Basami = Dukan Hyeopgong = E`r Jia = 2-Space Low Pincer\n\nIf you are high-dan and know a different follow-up than the given\none. mail it to me please: kogo@waterfire.us.",
+                "nckcqcpcpdqbrcodpeocrb": "'A' or 'B'.",
+                "nckcqcpcpdqbrcodpeocrbpg": "'A' or 'B'.",
+                "ncld": "Ikken Takabasami = Hankan Nop'dahyeopgong = Yi Gaojia = 1-Space High Pincer\nNot recommended.",
+                "ncldqcpcpdqbrcodpeocrbpgofnd": "The traingled stone is now not in the best position.",
+                "ncjd": "Sangen Takabasami = Sekan Nop'dahyeopgong = San Gaojia = 3-Space High Pincer\n\nNot recommended.",
+                "ncjc": "Sangen Basami = Sekan Hyeopgong = San Jia = 3-Space Low Pincer\n\nNot recommended."
+              }
+            },
+            {
+              "id": "3-4/02e5b5ba",
+              "title": "High approach (P16)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "odqfqcrcpcrbkc0<qirb0<<<<<qgpfqfqcrcpdqepbqbpcrbkc0<<<<rbqbpcrapbsb0<<<<<<<<<<<<ocpdpcqererdqcrfndpfofogng0ne0<pgne0<neme1<<neofrc0<<<<peqfndoejc0pf0nf0<<<<<<<qfndqcrdqbpbncnb0<<<<<<<<qcndmcpf0qk0<reqfrfqgmclelc0<<<qhmcle0<<<<<<<ncndmdqcrdqbrcmc0rbre0<<rbrcre0<mcpb1<<pepfrb0<ofqf0<<<<<<mcrdqcpf0<<mdldqcrdqbre0<<<<reqcrdlcqb0<<<<<<rdmdreqf0<<<<rdqcpf0qkqfrfpe0<perfqi0<<<<<<<rdndreqfmbpk0<<<<ncndnbnepereqg0<<<<<<<<<<ndpdncobognblc0<<<<<pcnc0<ncpdpcqe0<<<<ncpc1<pcpd1<<mcobpfneqjkc0<kdqhphpiohqerepdqi0<<pepdre0<<<<<<ogqepepdreqcqf0<<<<<pjpcocqbmf0<<<<<<<<<qg0<mdndncneoclcpeleqe0<<<<lcocmbnbmcobmfoe0<<<<<<mbocldmemflekd0<<<<<<<<<nencocoepeofpdkcmepf0<<<<<<<<<<<pfocpdpcqerdnd0<<<<ndpcqepdnf0<<<<<<pdqcqereqfrfqgob0<<<<<<qeqcrcpbqbpcrbpfrgldlc0<<jcrfqf0<qfrf0<<peoeof0<<<<<<<<<<<qepdpeocoendnememflflemd0<<<<<<<<<<reperfqcrdoc0<<<<<pepdqfreqcrfoend0<<<<<<<<qcpc1<neqg1<<lcofqfohqhic0<<qcrcpcrejcle0<<<<<<<pgoeneofpdqfnfogqcqerc0<<<<<<<pdofocpenc0<<<<<<pdoeocnc0<<<<pfocncpcndrf0<<<<oepepdndogmeofreobrdrc0<<<<<<<<<<<qereperfqcrcpdrdqbqh0<<<<rdpcpgrcic0<<<<<<<<<mdnbldkcqepcpepj0<<pdpeocncoboepj0<<<<<<<pcqg0<<<<<ldmc0<mcldqcrcpcqg0<<<<<qcrc1<<kcofqfohqhqcrcickekg0<<<<<<<<qereperfqcrdpcqimc0<<<<<<<<qc0pfoepepdneocofnc0<<<ocneqbrfrgreqgrb0<<<<<<<<<<<<kdofqfohqhidkfkhjg0<ifkh0<<<<<<<pfqfpgqgph0<<qgpgqerfofreph0<<<<<<<ocpdpcqcrcqbrbqerdncpb0<<<<<<<<<<oepepdocneqbrfqgrbpbrg0<<<<<<<<<<<qerepeqfrfrgrdsfqc0<<<<rdrcrfsdqg0<<<<pfqgrfrdqhpgrgph0<<<<<<<<rfqcrcpdrdphqbhd0<<<<<<<<<<pgoeneofpdqfqcqenfogrc0<<<<<<nfogpdqfqcrdrc0<<<<<<<penfndmdncmcobnboc0<<<<<<<ld0<<<<<pdoeocncobnbpfjc0<<<pbobpcmdicpf0<<<<<<<<ocoeneofmd0kc0<<<<<<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "od": "Ikken Takagakari = Hankan Nop'dakeolch'im = Yi Gaogua`jiao~ = 1-Space High App\\\noach\n------------------------------------------------------------------------------\\\n\nThe 5-4 approach move has become more popular in modern times,\nas modern Go emphasizes speed and influence.\n\nBlack responds at 'a *', 'b *', 'c', 'd *', 'e *', 'f *', 'h', 'i *', 'j *', '\\\nk', 'l', 'm', or plays elsewhere 'o'.\nIf Black is in the top left corner with a low shimari at the triangled point, \\\nBlack should not pincer, but play at 'a *'.\nIf Black is in the top left corner with a high shimari at the squared point, B\\\nlac…",
+                "odqf": "Ikken Biraki (1-space extension)\n\nCompared to Black 3 onto A this move has the advantage of safety,\nas the Black group can no more be attacked from the lower right,\nand the disadvantage of renouncing influence and continuations\ninto the center.",
+                "odqfqc": "Black continues with 'a *'. 'b' was once considered to be joseki, but\\\n is inferior, only good in a special case.",
+                "odqfqcrcpc": "'A *' is usual, 'B' is possible.",
+                "odqg": "Nikken Biraki = Dukan Peollim = Chai E`r = 2-Space Extension",
+                "odqgpfqfqcrcpdqepb": "Joseki, but in some cases it's better to start at A",
+                "odqgpfqfqcrcpdqepbqbpcrb": "Black may consider tenuki",
+                "odqgpfqfqcrcpdqerbqbpcrapb": "Now it's harder for Black to play tenuki",
+                "odoc": "Tsuke-Hiki = Attach to draw back\n\nBlack 3 is the most orthodox reply to White 2.\n\nWhite continues with 'a *', 'b *' or 'e'. \n\nWhite 'b' leads to the avalanche pattern, which has complex variations.\nBlack has the initial choice of joseki with this pattern. The\noutcome is typically Black gets the corner and out on the side,\nWhite thickness.\n\nWhite may also play elsewhere ('c'). \n\nWhite 'd' is sometimes played in amateur games.\n\nWhite 'e' is played by professionals who don't want an immediate\ndecision which joseki shall be played.",
+                "odocpdpcqe": "Nadare = Nunsataehyeong = Xue~beng = Avalanche = Lawine\n\nBlack can respond 'a *', 'b *', 'c *' or 'd *'.\nBlack 'a' is peaceful;\n'b' avoids all complications;\n'c' is the small avalanche = ko-nadare;\nBlack 'd', White 'c' gives the large avalanche = oo-nadare.\n\nBlack must have the ladder to play 'c'.\n\nAfter 'c' there are no more simplifying variations, but the small\navalanche isn't too complicated.\nAfter 'd' there are many complications, but White still can choose\na simplifying variation.\n\nAbout the large avalanche joseki, Takemiya Masaki 9P spoke to\nJan van der Steen: \"I will never play nadare i…",
+                "odocpdpcqere": "Joseki continues with White 'a *'. White 'b' is also possible.\n\nOutdated",
+                "odocpdpcqererdqcrf": "Black continues with 'a *' or 'b'.",
+                "odocpdpcqererdqcrfndpf": "Black continues with 'a', plays elsewhere ('b'). Black 'c' is\nnot compelling.",
+                "odocpdpcqererdqcrfndpfof": "Continuation. White continues with 'a'. White 'b' is submis\\\nsive.\nWhite 'c' is unreasonable.",
+                "odocpdpcqererdqcrfndpfofog": "Black continues with 'a'. Black 'b' is weak.",
+                "odocpdpcqererdqcrfndpfofogng": "White plays safe with 'a', or strongly with 'b'.",
+                "odocpdpcqererdqcrfndpfofpg": "White 14 is submissive.",
+                "odocpdpcqererdqcrfndpfofne": "White 14 is unreasonable. Black 13 is the vital point pre\\\ncisely\nbecause White 14 is impossible.\n\nBlack continues with 'a'. White 'b' is a mistake.",
+                "odocpdpcqererdqcrfndpfne": "White continues locally with 'a', or plays elsewhere ('b').",
+                "odocpdpcqererdqcrfndpfneofrc": "Black 15 is not urgent.\n\nEarly in the game, White is better advised to play elsewhere\nthan take at 'a'.",
+                "odocpdpcqererdqcrfpeqfndoe": "Black 11 retains potential, but it should not be played immed\\\niately.\n\nBlack continues with 'a'. \nBlack 'b' immediatley is premature, but may make sense later.\nBlack 'c' is a tesuji. \nBlack 'd' is meaningless.",
+                "odocpdpcqererdqcrfpeqfndoejc": "Black 15 is a good extension that retains Black 15's potent\\\nial",
+                "odocpdpcqereqf": "White 8 was played by Wu Qingyuan = Go Seigen against Karigane \\\nJunichi on February\n25, 1942.",
+                "odocpdpcqeqcnd": "White 8 is the only move.\n\nBlack continues with 'a *' or 'b *'.",
+                "odocpdpcqeqcndmc": "'A *' and 'B' make sense, tenuki 'C' can be possible.",
+                "odocpdpcqeqcndreqfrf": "'A *' or 'B'.",
+                "odocpdpcqeqcndreqfrfqgmc": "White continues with 'a *'. White playing elsewhere ('b') is\nnot recommended.",
+                "odocpdpcqeqcndreqfrfqgmclelc": "Black 15 is necessary to allow for a push at the red dot.",
+                "odocpdpcqenc": "The large avalanche if White 'a'. White 'b *' or tenuki 'c' to\navoid the complications of the large avalanche.",
+                "odocpdpcqencnd": "Black starts the large avalanche with Black 'a'. Black 'b', 'c'\\\n\nand 'd' avoid the avalanche joseki.",
+                "odocpdpcqencndmd": "Oo-Nadare = Keun Nunsataehyeong = Da` Xiao~beng = Large Avalanche = Grosse Law\\\nine\n------------------------------------------------------------------------------\\",
+                "odocpdpcqencndmdqcrdqb": "Black can continue at 'A' to 'C'.\n'C', 'B' and 'A' appeared in succession after the joseki was\ninvented in the early Showa period (1926-1984).\n'A' is an invention of Wu Qingyuan = Go Seigen and still the most oftenly play\\\ned\nmove of the four.\n'D' is a modern invention and leads to a peaceful variation,\nwhich is good for White.",
+                "odocpdpcqencndmdqcrdqbrc": "Black 13 was invented by Wu Qingyuan = Go Seigen, played fi\\\nst on February\n2, 1957 against Takagawa. The move was considered revolutionary.\nThis innovative move has transformed the large avalanche joseki,\nAlthough the variation of Wu Qingyuan = Go Seigen it isn't up to date anymore\nin the new millenium, there are other continuations who are still\nconsidered joseki.\n\nWhite continues with 'a'. White 'b' is not recommended.",
+                "odocpdpcqencndmdqcrdqbrcrb": "White 14 is not recommended, but was the reply Takagawa m\\\nade\nagainst Wu Qingyuan = Go Seigen when Go first played Black 13.",
+                "odocpdpcqencndmdqcrdqbrb": "White continues with 'a'. White 'b' is an early alternative\\\n to\nthe joseki that developed, and not recommended.",
+                "odocpdpcqencndmdqcrdqbrbrc": "White 14 is not recommended.",
+                "odocpdpcqencndmdqcrdqbrbrcre": "White continues with 'a' or 'b'.",
+                "odocpdpcqencndmdqcrdqbrbmc": "Black continues with 'a'. Black 'b' is not recommended. B\\\nlack\n'c' is something of a trick play that should not work if White\nplays carefully.",
+                "odocpdpcqencndmdqcrdqbpe": "'A' is joseki, 'B' is also possible.",
+                "odocpdpcqencndmdqcrdqbpepfrb": "'A' is joseki, 'B' is not good.",
+                "odocpdpcqencndmc": "Black 9, a bit submissive, but adequate, and avoids the avala\\\nnche.\n\nWhite continues with 'a'. White 'b' is not recommended as giving\na locally equal result, but may make strategic sense.",
+                "odocpdpcqencndmcmd": "White 10 only makes sense strategically; locally it results\\\n in\na loss.",
+                "odocpdpcqencrd": "White avoids the avalanche.",
+                "odocpdpcqencrdqc": "'A *' is joseki, but the White formation is without extension.\n'B' sers up a Mini Chinese opening.",
+                "odocpdpcqencrdqcqkqf": "'A' is possible.\nAfter 'B' White is heavy, Black light. 'B' is possible if the\nWhite extension is nearer.",
+                "odocpdpcqerd": "Black 7 has the advantage of Black later extending down the right\\\n\nfrom Black 7. White continues with 'a'. White 'b' may be possible\nwith support on the right.",
+                "odocpdpcqerdnd": "White treats Black 7 as equivalent to a solid connection at 'a'\\\n,\nso White 8 is the only move, but unlike the solid connection,\na potential cutting point at 'a' remains.",
+                "odocpdpcqerdndreqfmbpk": "Joseki",
+                "odocpdpcqerdncndnbnepere": "Unless Black can the two White cutting stones, Black 13 is advi\\\nsed.\nBlack 'a' is too submissive.",
+                "odocnd": "'A' is good for Black. 'B' and 'C' are known joseki in different \norders.",
+                "odocndpdncobognblc": "Joseki",
+                "odocndpcnc": "Same position as White 6 and Black 5 played before White 4, see \nthere for continuation.",
+                "odocndncpdpcqe": "Same position as the large avalanche joseki referenced by the \nnumbers, see there for continuations.",
+                "odocnc": "Black continues with 'a *' or 'b *'.\n'c' is a mistake.",
+                "odocncpc": "White continues with 'a *', 'b *' to 'd', or plays elsewhere\n'e *' if he has or easily gets the ladder.",
+                "odocpc": "White 4 is not joseki.",
+                "odmc": "Ikken Basami = Hankan Hyeopgong = Yi Jia = 1-Space Low Pincer\n\nWhite responds with 'a *' to establish a group or 'b *' to seperate\nBlack.\n\nWhite likes to have support in the lower right for 'b *'.\n\nWhite 'c *' isn't good among ususal circumstances. Its purpose\nis to \u0013prevent a Black moyo on the top side and occupy the triangled\nposition.\n\nWhite 'd' was considered joseki a long time, but is now considered\nan inferior variation..\n\nWhite rarely ignores the pincer (variation 'e'). \n\nIn some fuseki, the usual joseki are no help, and only 'f' is\ncorrect.\n\n'g' is inferior attempt to enforce a positio…",
+                "odmcob": "'A *' is usual. 'B' is possible.",
+                "odmcobpfne": "Black continues with 'a *' or 'b *'.",
+                "odmcobpfnekd": "Oftenly, the move is better on A.",
+                "odmcobpfnekdqh": "Black continues with 'A *' or 'B'.",
+                "odmcobpfnekdqhphpiohqe": "'A *' is the new joseki which grips the right side for some p\\\noints\nin the corner.\n'B' is the old variation, after which the White stones on the\night may still be used..",
+                "odmcobpfnekdqhog": "White continues with 'a' or 'b'.",
+                "odmcobqg": "If you are high-dan and know the follow-up. mail it to me please.",
+                "odmcmd": "Black 'a *' is usual; 'b *' and 'c' are also possible. Black\nmust have the ladder to play 'c'.",
+                "odmcmdnd": "Black must have the ladder to play this way.\n'A' is correct, 'B' is wrong.",
+                "odmcmdndncne": "White continues with 'a' or 'b'. 'a' gives White the corner,\n'b' gives White influence to the top.",
+                "odmcmdndncnelc": "Joseki continues with Black 'a'. Black 'b' has been used prof\\\nessionally.",
+                "odmcmdndncnelcmb": "Black 9 was played by Takagawa Shukaku against Kitani Minor\\\nu\nin the 1st Saikyo Title in March 1958.",
+                "odmcpf": "This move is correct, if\na) there's an additional Black stone on the squared position,\nb) there are additional White stones on the triangled positions.",
+                "odmcpfoc": "'A' or 'B' are ok.",
+                "odmcpd": "Old japanese joseki",
+                "odmcpdqe": "Most common answer for Black",
+                "odmcpdqeqcrcpbqb": "Can also extend at A, but atari is better",
+                "odmcpdqeqcrcpbqbpcrbpfjcrf": "Tesuji",
+                "odmcqe": "White 4 with this pincer gives White an inferior result: each\nplayers gets a side, but Black gets the whole corner territory.\n\nBlack continues with 'a'. Black 'b' and 'c' are mistakes.",
+                "odmcqepd": "Sometimes the simple move is the best.",
+                "odmcqere": "Black 5 is passive.",
+                "odmcqepe": "Black 5 starts a complex battle that Black has no way to win.",
+                "odmcqc": "The aim of White 4 is to settle the position promptly, but Black\nmay have other plans.\n\nBlack responds with 'a *', 'b' or 'c *'.\n\nBlack 'a' aims for the top side although other results are possible,\ntoo. It also offers some fine trick plays for Black.\n\nBlack 'b' does settle the position, with Black taking the right,\nWhite out to the center toward the top (but with Black aji from\nthe pincer).\n\nBlack 'c' is similar to 'a' in the type of results and difficulty.\nAs it offers a chance for a mistake for weak players, it is traditionally\negarded as a trick play, although that is not a much important…",
+                "odmcne": "Black continues with 'a' to 'c' or 'e'. Black 'd', attempting\nto connect underneath, does not work.\n\nWith Black 'a and 'b', outcomes vary depending on White's play.\nBlack 'b' is good to make a moyo with support in the upper left.\n\nWith Black 'c', Black takes the top, White the right.\n\nWith Black 'd', Black takes the corner, giving up on Black 3,\nthe pincer.\n\n'f' is not recommended.",
+                "odmcneqg": "White continues with 'a' or 'b'.",
+                "odlc": "Nikken Basami = Dukan Hyeopgong = E`r Jia = 2-Space Low Pincer\n\nIf you are high-dan and know the follow-up. mail it to me please: kogo@waterfi\\\ne.us.\n\nWhite continues with 'A', 'B', 'C' or 'D'. \nWhite needs the ladder for 'B'.\n'E', 'F', 'G' and 'H' are mistakes.\nIf White plays tenuki 'I', Black has no good follow-up.",
+                "odlcofqf": "To keep the pseudo-pincer weak, White must make Black react against\\\n\n'A' on the right, not settling Black without settling himself\nby playing 'B'.",
+                "odlcofqfohqhic": "In contrast to Black 3 being on A or B, Black 3 is one line slowe\\\n\non his escape route.\nSo Black 3 is not ideally positioned.",
+                "odlcpg": "'A' good for W\n'B' good for W, W needs ladder",
+                "odlcpgoene": "'A', 'B' good for W",
+                "odlcpgoeneofpdqfnfogqcqerc": "In contrast to Black 3 being on A, White doesn't need the ladde\\\n\nfor this move, so Black 3 is bad positioned.",
+                "odlcpgoenepdofocpenc": "Black 3 is now too near.",
+                "odlcpf": "'A' is correct, 'B' good for W",
+                "odlcqereperfqc": "'A', 'B' good for B",
+                "odlcmdnbldkc": "'A', 'B' good for B",
+                "odlcmdnbldkcqe": "'A', 'B' good for B",
+                "odlcqc": "'A' correct\n'B' mistake",
+                "odlcqcrc": "'A', 'B' good for B",
+                "odkc": "Sangen Basami = Sekan Hyeopgong = San Jia = 3-Space Low Pincer\n\nIf you are high-dan and know the follow-up. mail it to me please: kogo@waterfi\\\ne.us.\n\n'A', 'B' or 'C'. 'D' is disadvantageous.",
+                "odkcof": "'A' or tenuki 'B'.",
+                "odkcpfoepepd": "'A' or 'B'.",
+                "odkd": "Sangen Takabasami = Sekan Nop'dahyeopgong = San Gaojia = 3-Space High Pincer\n\nThe purpose of the three-space high pincer is to maintain overall\nbalance. This pincer is still experimental: definitive joseki\nhave yet to emerge.\n\n'A' is simple and correct. 'B', 'C' or 'D' are possible.\n\nOpinion of A.Dinerchtein: A is too soft. B is best",
+                "odkdofqfohqhidkf": "It's likely that White is also on the triangled point. Then, 'A' is\\\n correct, 'B' wrong.",
+                "odkdpf": "Black continues with 'a'. Black 'b' is not recommended, as the\npincer stone loses its effectiveness. \n\nBlack 'c' provokes a large scale fight.",
+                "odkdpfqf": "White continues with 'a' or 'b'.",
+                "odkdpfqfpg": "If White does not have the ladder, he plays 6.",
+                "odkdpfqfqg": "If White has the ladder, he can play 6 here.",
+                "odkdpfoe": "Black 'c' was played by Kato Masao against Sakata Eio in the\n30th Honinbo league playoff in 1975.",
+                "odkdqerepe": "'A' or 'B'.",
+                "odkdqerepeqf": "'A' is correct, 'B' involves a ladder.\n'C' is bad.",
+                "odkdpgoeneof": "'A' or 'B'.",
+                "odkdpgoenepe": "It's a good plan now",
+                "odkdpgoenepeld": "Most active way for White, but it's rather complicated",
+                "odpd": "Tsuke-Atari = Headbanging\n\nThe thrust was an invention of Kitani Minoru and was one of his\nfavorite moves. 'a' and 'b' are miai.",
+                "odpdoeocnc": "Black continues with 'a'. Black 'b' was the first professional\nexperiment with this joseki.",
+                "odpdoeocncpb": "Kitani played Black 7 against Wu Qingyuan = Go Seigen in game 9 o\\\nf their 1941\nJubango in Kamakura. The colors are reversed from actual play.\n\nThe aim of Black 7 is to make White lose sente with succeeding\nplays 8 & 10.",
+                "odpdoeocncpbobpcmdic": "Black gets the good extension.",
+                "odpdoeocncpbobpcmdicpf": "White 12 is the only move.",
+                "odpdocoeneof": "White continues with 'a' or 'b'.",
+                "odpdocoeneofkc": "White can play 8 here, but the possibility of Black 'a' is distas\\\nteful."
+              }
+            },
+            {
+              "id": "3-4/828a28fb",
+              "title": "Low approach (R10)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "qjocmcqhqfpgpendpdpcofmd0<<<<<<<<<<<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "qj": "White 2 shows a special strategy.\n'A' Black has a shimari.\n'B' Black played the Mini-Chinese Fuseki."
+              }
+            },
+            {
+              "id": "3-4/a62a61d4",
+              "title": "High approach (Q13)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "pgodpj0<pjodoenepenfndmdncmcobnboc0<<<<<<<<<<<oiodoj0<ojodoepepdocofqepbpcqc0<<<<pfofqene0<<<neqererfrd0<<<<<<<<<<<oeoc0<pdpeqcqepcnenc0<<<<<pcqcocrbqepeqf0<<rdodncndmcqere0<<<<<<<<<<<<pfofpeogndpkqgqhrgrhshsisg0<<<<<<<<<<<<piqkpeqipjqh0qjphqgogkeol0<<<<<<qhphqgqfrfpfqeoipj0<<<<<<<<phqhogqgpjofpfngoh0<<<<<<<<<<oj0rinhojod0<<<odpcpdqiqhphqgqfrfripf0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "pg": "White 2 represents a special strategy when Black has a Chinese-style\nfuseki at top.\n\nBlack continues with 'a', 'b', 'c' or 'd'.",
+                "pgpj": "'A', 'B' or 'C'. If the triangled Black stone is high, also 'D'\nis possible.",
+                "pgpjoi": "'A' or 'B' are both good.",
+                "pgpjoiojodoepepdoc": "'A' is correct, 'B' and 'C' are disadvantageous.",
+                "pgpjoeoc": "'A' or 'B'.",
+                "pgpjpd": "'A' or 'B' are both possible.",
+                "pgpjpdpcqcocrb": "'A' leads to fight, 'B' to a solidified position which is a littl\\\ne\nbetter for White.",
+                "pgpfofpeogndpk": "'A' is a 15 points endgame sente move for Black.",
+                "pgpiqk": "'A' and 'B' are correct, 'C' and 'D' are mistakes.",
+                "pgpiqkpeqi": "'A' is correct, 'B' and 'C' are mistakes.",
+                "pgpiqkpeqipj": "'A' is correct, 'B' is disadvantageous."
+              }
+            },
+            {
+              "id": "3-4/797bd3b9",
+              "title": "Low approach (R14)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "qfodqi0<qhqcpcpdrcqbpeodqerbneoeof0<<<<<<<<<<pdpcodrdrercqenc0<<<<<<<<ofodohpjmfmd0<<<<<<<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "qf": "Usual against the Chinese Opening.\n\n'A' is correct.\n'B' is possible, but disadvantageous in the context of this fuseki.",
+                "qfqh": "'A' is correct, 'B' is questionable.",
+                "qfqhqc": "'A' or 'B'."
+              }
+            },
+            {
+              "id": "3-4/9da346d1",
+              "title": "Attachment (R17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qd"
+                ],
+                "white": []
+              },
+              "variationTree": "qcpcpdocrdqereqfqbrfsc0<<<qbqfrcpeqcpgof0<<<<<<rcqbrbqfpepfoe0<ofoe0<<<<<<<qbrescpbrbsesd0<<<sepbobrapa0<<raobnc0<<<<<<<<<<pbqerdrercod0<<<<<<rdqbrcqerbpbreqfrarfse0<<<<<<<<<rcqbrbpdqepbocreqfobnc0<<<<<<<<<<<<pd0<<",
+              "comments": {
+                "": "Komoku = Somok = Xiao~mu` = 3-4 Point\n\nThe komoku (3-4) point is the traditional corner enclosure move.\nWhite approaches with 'a *', 'b *', 'c *' or 'd *'. \n\n'e' covers enclosure (shimari) joseki.\n\nWhite 'f', 'g' and 'h' are special strategies, usually against\nthe Chinese Fuseki.\n\n'i' is not joseki, but simply an invasion to take the corner\nafter Black made a shimari-less moyo on top disabling the other\nmoves.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "qc": "'A' is correct, 'B' is inferior.",
+                "qcpc": "'A' is ususal, 'B' is not recommended.",
+                "qcpcpd": "'A' is correct, 'B' not recommended.",
+                "qcpcpdocrdqe": "'A' is correct, 'B' also makes life.",
+                "qcpcpdocrdqere": "'A' is correct to enclose White, 'B' and 'C' keep the corner.",
+                "qcpcpdocrdqerercqbrbqfpe": "'A' or 'B'.",
+                "qcpcpdocrdqeqbresc": "'A' is correct, 'B' is disadvantageous.",
+                "qcpcpdocrdqeqbrescsepb": "'A' is correct, 'B' wrong.",
+                "qcpcpdocrdqeqbrescsepbraobnc": "If pushing on 'A' isn't helpful due to additional stones no\\\nt\nshown, White lives on 'B'.",
+                "qcpcrd": "'A' encloses a small group, 'B' starts a ko.",
+                "qcpcrdrcqbrbpdqepbocreqfobnc": "'A' is correct, 'B' disadvantageous.",
+                "qcpd": "Same variation as Black 3 played before Black 1."
+              }
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "title": "3-3 point (san-san)",
+          "josekis": [
+            {
+              "id": "3-3/dcbdd738",
+              "title": "Low approach (R14)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "qfncqi0<<<",
+              "comments": {}
+            },
+            {
+              "id": "3-3/7eca3ded",
+              "title": "High approach (Q16)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "pdqdpepcndocmfqf0<<<<obmdrfph0<<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "3-3/e770d8df",
+              "title": "Low approach (P17)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "ocpemdqiic0<<lcqioeofpdqdpfqenepgnfog0<<<<<<<<pfqbrbpbpdod0<<<<<<<<<qflc0oepgqbrbqdrdpcrckd0<<<<<<<pdodpgkc0<<<kdqbrbqdrdpcrcqerepfqg0<<<<<<<<<pgpf1<<ofnfogqerepergkd0<<<<<<<<ofphjd0<<<pfkd0lcpcodph0<<<qdpdpcqeqbrdrbmdmb0<<<<<<<<<odndpdnencmcnbmboble0<<ldobpf0<<<<<<mcne0pgjd0<<ncnemenfmfng0<<mflenfid0<<<<<jdnfpg0<<ofnejd0<<<<oepcqd0<mcpcobpi0nememflelfkepj0<<<<<<ldneofnfoglfid0<<<<<lcjdleph0<<<<<<<nckdneofmgoh0<<<pdpcpepfofneqfpg0<<<<<<<qeqdrepcneofqhoh0<<<<<<<<<nenc1<<<<qelc0<ldqdrdpdreqbrcpg0<<<<<pcpdodoendrcrbrdncqh0<<<<<<<<<<oeqeogqgid0<<<<<<<",
+              "comments": {
+                "": "San-San = Sam-Sam = San-San = 3-3 Point\n\nThe san-san (3-3) point, emphasizing territory at the expense\nof influence (especially following an approach at 'a'). \n\nAll joseki for the 3-3 point are relatively simple.\n\nWhite approaches are 'a *' to 'c *'. White 'b *' to 'e' are played\nwhen the top side is favored (such as an extension).",
+                "oc": "Ikken Kakari = Hankan Keolch'im = Yi Gua` Jiao~ = 1-Space Approach\n\nBlack continues with 'a *' to 'f'. Black 'g' shows Black playing\nelsewhere.\n\ne5,d4,c3,b2,a1",
+                "ocpe": "Keima = Narincha = Fei = Knight's Move\n\nWhite continues with 'a' or 'b*'.",
+                "ocpelcqioe": "Black continues with 'a' or 'b'.",
+                "ocqf": "Nikken Biraki = Dukan Peollim = Chai E`r = 2-Space Extension\n\nBlack 3 is mild.\n\nWhite continues with 'a' to 'c'. White 'd' show White playing\nelsewhere.\n\nd4, c3, b2, a1",
+                "ocqfoe": "Black continues with 'a' to 'c'. Black 'd' shows Black playing\nelsewhere.\n\ne5, d4, c3, b2, a1",
+                "ocqfoekd": "White continues with 'a'. White 'b' is not recommended, as it\ncan start a slippery slope to disaster.",
+                "ocqfoekdpg": "White 6 is an overplay.",
+                "ocpf": "Oogeima = Nunmokcha = Da` Fei = Large Knight's Move\n\nWhite continues with 'a'. White 'b' is not recommended.",
+                "ocpfkd": "White plays large like Black. This is appropriate.",
+                "ocpflc": "White 4 is too short an extension.\n\nWhite continues locally with 'a', or plays elsewhere ('b').",
+                "ocpfqd": "White 4 is not recommended, as it gives Black good shape.",
+                "ocod": "Ue-zuke (attach on top)",
+                "ocodnd": "Black continues with 'a' or 'b'.",
+                "ocodndpd": "White continues with 'a' to 'c'. White 'd' shows tenuki.",
+                "ocodndpdnencmcnb": "White continues with 'a' to emphasize the top, 'b' to target\nthe right side.",
+                "ocodndpdnencmcnbldob": "Black 11 is honte (the proper move).",
+                "ocodndpdmc": "Black continues with 'a' or 'b'. 'c' shows Black playing elsewher\\\ne.",
+                "ocodndpdnc": "White 6 is a bit slow, but playable.\n\nBlack continues with 'a' to 'c'.",
+                "ocodndpdncneme": "Black continues with 'a' or 'b'.",
+                "ocodndpdncjd": "White continues with 'a', or plays elsewhere ('b').",
+                "ocodndoe": "White continues with 'a'. White 'b' and 'c' are not recommended.\nWhite 'd' gives away too much territory.",
+                "ocodndoemc": "White 6 is slow.",
+                "ocodndoemcpcob": "Black continues with 'a' to 'c'.",
+                "ocodndoemcpcobld": "White continues with 'a' or 'b'.",
+                "ocodndoenc": "White 6 is slow.\n\nBlack continues with 'a'. Variation 'b' shows Black playing elsewhere.",
+                "ocodndoenckd": "White continues with 'a'. White 'b' is unreasonable. White 'c'\nis not good either.",
+                "ocodndoenckdpd": "White 8 is unreasonable.",
+                "ocodndoenckdqe": "White 8 is not recommended.",
+                "ocodndoene": "White 6 gives away too much territory.\n\nBlack 'a' takes advantage of White's mistake, whereas 'b' lets\nWhite move seem playable.",
+                "ocodndoenenc": "White continues with 'a' or 'b', neither favorable.",
+                "ocqe": "Ikken Biraki = Hankan Peollim = Chai Yi = 1-Space Extension",
+                "ocqelc": "A is a continuation for Black",
+                "ocld": "Nikken Takabasami = Dukan Nop'dahyeopgong = E`r Gaojia = 2-Space High Pincer\n\n'A' or 'B'.",
+                "ocldqd": "'A' or 'B'.",
+                "ocldqdpcpdodoendrcrbrdncqh": "Aji for White on A and B."
+              }
+            },
+            {
+              "id": "3-3/f4465dd7",
+              "title": "High approach (O16)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "ndpfjcqjocpcnf0<<nf0pcpdocqbnfph0<<<<<qepeqdpdrcqfpcqbrbre0<<<<<<<<<<<<pejcqipcpdocqbnfpg0<<<<<<lcldmcmdncodpckc0<<<<<<<<qgof1<<jdpdqdpfqengqghd0<<<<<<<qf0qejclcldmcmdobkc0<nckcodoepd0<<<<<<<pcpdocqbkdmeldmdmcne0<<<<<<leqbrc0<<<<<<<<pdjclcldmcmdnckcod0<<<<<<qhoc0<<<<<",
+              "comments": {
+                "": "San-San = Sam-Sam = San-San = 3-3 Point\n\nThe san-san (3-3) point, emphasizing territory at the expense\nof influence (especially following an approach at 'a'). \n\nAll joseki for the 3-3 point are relatively simple.\n\nWhite approaches are 'a *' to 'c *'. White 'b *' to 'e' are played\nwhen the top side is favored (such as an extension).",
+                "nd": "Nikken Takagakari = Dukan Nop'dakeolch'im = E`r Gaogua`jiao~ = 2-Space High Ap\\\nproach\n------------------------------------------------------------------------------\\\n\nBlack continues with 'a *' or 'b *'. Black 'a' works well when\nBlack is in the lower right (so an extension in the middle works\nboth ways). The more conservative 'b' is makes a slightly tighter\nshape (better for a fight).\n\nBlack 'c' is possible if Black has an extension on the right\nside. \n\nBlack 'd' may be best if White has a stone on the right side\nthat blocks extension.\n\nBlack 'e' and 'f' threaten an invasion on the top.\n\nBla…",
+                "ndpf": "Oogeima = Nunmokcha = Da` Fei = Large Knight's Move",
+                "ndpfjc": "The Black extension 'A *' is joseki. Tenuki 'B' is possible,\nalthough not recommended.",
+                "ndpfjcqj": "'A' and 'B' are good continuations. 'C' is disadvantageous. 'D'\nis wrong.",
+                "ndpfjcqjoc": "Black continues on 'A'. Tenuki 'B' is disadvantageous.",
+                "ndpfjcqjpc": "White settles the corner in sente, but solidifies Black.",
+                "ndpfjcqjpcpdocqbnfph": "Black is better off.",
+                "ndpe": "Keima = Narincha = Fei = Knight's Move\n\nWhite continues with 'a *'. White 'b' is possible with support\nat right.",
+                "ndpejc": "'A *' is joseki, tenuki 'B' and the invasion 'C' are possible.",
+                "ndpejcqipc": "Black continues with 'a'. Black 'b' gives White the corner in\nsente, a local loss.",
+                "ndpeqg": "In this case, Black 3 was a mistake.",
+                "ndpeqgof": "Black must play 5 to get to the center.",
+                "ndjd": "A pincer around Black 3 is possible if Black has support such\nas the stone shown on the right side.",
+                "ndjdpdqdpf": "White aims to settle himself playing loosely.",
+                "ndjdpdqdpfqengqghd": "White 10 is a checking extension. This play makes sense if White\nhas support in the top right corner, as shown.",
+                "ndqf": "Nikken Biraki = Dukan Peollim = Chai E`r = 2-Space Extension\n\nBlack plays 3 if White has a stone as shown that blocks Black\nfrom extending down the right side.",
+                "ndqe": "Ikken Biraki = Hankan Peollim = Chai Yi = 1-Space Extension",
+                "ndqejc": "Black wants to take away White's base on 'A' or not and plays\ntenuki 'B'.",
+                "ndqejclc": "'A' or 'B'.",
+                "ndqejclcldmcmd": "'A' is right, 'B' leads to overconcentration.",
+                "ndqejclcldmcmdnckcodoepd": "Now, the triangled stone is too near.",
+                "ndqejclcpcpdoc": "Black gives White a safe group and takes much influence on 'A'\nor hunts on 'B'.",
+                "ndpd": "Kosumi = Ibkucha = Jian = Diagonal",
+                "ndpdjc": "Black 'A' or 'B'."
+              }
+            },
+            {
+              "id": "3-3/29b5675a",
+              "title": "High approach (P16)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "odpeoepfpcqbkd0ofpgnh0<<<<<<kdoeocnemdpjqbrbpbrd0<<<<<<<<<jdoemd0<ldoepfofpgkemfmelelfmd0<<<<<<<<<nflfpdqdpfoeneqenh0<<<<<<<<<<phoemdnememflfmglgmhpk0<<<<<<<<<qfkd0<<nfoenendmdncmcnbmbpg0<<<<<<<<<<qepcqbld0ofpgkd0<<pfqfpgqgph0<<<peoeofqfrfrgrephog0<<<<<pgnfmdohqirf0<<<<<phnf1<<<<<<pdocoeneofqb0<<<<<<<qf0ocpdpcndrepg0<<<<ncndoemcpcnbobncpdpbqboa0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "San-San = Sam-Sam = San-San = 3-3 Point\n\nThe san-san (3-3) point, emphasizing territory at the expense\nof influence (especially following an approach at 'a'). \n\nAll joseki for the 3-3 point are relatively simple.\n\nWhite approaches are 'a *' to 'c *'. White 'b *' to 'e' are played\nwhen the top side is favored (such as an extension).",
+                "od": "Ikken Takagakari = Hankan Nop'dakeolch'im = Yi Gaokeolch'im = 1-Space High App\\\noach\n------------------------------------------------------------------------------\\\n\nWhite 2 is a high tight attack with a direction bias.\n\nWhite continues with 'a'. Tactically, any other response is less\nadvantageous.",
+                "odpe": "Keima = Narincha = Fei = Knight's Move\n\nWhite continues with 'a' to 'd'. White 'e' indicates a special\nstrategy of influence toward the top-left. Variation 'f' covers\nWhite playing elsewhere.",
+                "odpeoepfpcqb": "White continues with 'a', or plays on a large scale with 'b'.",
+                "odpekdoeocnemdpj": "The joseki concludes.",
+                "odpekdoeocnemdpjqb": "A later continuation.",
+                "odpejd": "Black continues with 'a' 'b'. Black 'c' is not recommended.\n\nBlack 'd' shows Black playing elsewhere.",
+                "odpejdld": "Black 5 is unreasonable.\n\nWhite continues with 'a' or 'b'.",
+                "odpejdldoe": "White 6 builds thickness for an attack on Black 5.",
+                "odpejdldnf": "White 6 is a light way of playing.",
+                "odpeph": "Black gets out with 'a' or settles shape locally with 'b'.",
+                "odpephoe": "Black keeps White separated.",
+                "odpephqf": "Black settles his shape in sente.",
+                "odpenf": "White aims for influence at top, but gives away a large corner.",
+                "odqe": "Ikken Biraki = Hankan Peollim = Chai Yi = 1-Space Extension",
+                "odqepc": "Black continues with 'a' or 'b'.",
+                "odqepcqb": "White continues with 'a' to 'c'.",
+                "odqepcqbof": "Black continues with 'a', or plays elsewhere ('b').",
+                "odqepcqbpf": "Black continues with 'a', or the fighting move (finally) of 'b'.",
+                "odqepcqbpfpeoeof": "White continues with 'a' or 'b'. White 'c' is not recommended.",
+                "odqepcqbpfpeoeofpg": "White 10 is not recommended, as it is unnecessarily heavy. Va\\\niation\n'a', the one-space jump, gives a more favorable result to White.",
+                "odqepcqbpfpeoeofph": "White 10 is a tesuji.\n\nBlack continues with 'a'. Black 'b' is a mistake.",
+                "odqf": "Nikken Biraki = Dukan Peollim = Chai E`r = 2-Space Extension",
+                "odoc": "Tsuke\n\n'A' or 'B'."
+              }
+            },
+            {
+              "id": "3-3/8ab783b3",
+              "title": "Low approach (O17)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "nckdpdpcocrepfqgoh0<<<<qdocodndmdnembrdrerc0<<<<<<<<<<repcqb0<<<qdpdpcqerdocpbpe0<<<<<<<<pekcqi0<<<<",
+              "comments": {
+                "": "San-San = Sam-Sam = San-San = 3-3 Point\n\nThe san-san (3-3) point, emphasizing territory at the expense\nof influence (especially following an approach at 'a'). \n\nAll joseki for the 3-3 point are relatively simple.\n\nWhite approaches are 'a *' to 'c *'. White 'b *' to 'e' are played\nwhen the top side is favored (such as an extension).",
+                "nc": "Nikken Kakari = Dukan Keolch'im = E`r Gua`jiao~ = 2-Space Low Approach\n\nBlack can thwart White's strategy with a play at 'a', ignore\nWhite 2 ('b') or simply extend on 'c'.",
+                "nckd": "Nikken Takabasami = Dukan Nop'dahyeopgong = E`r Gaojia = 2-Space High Pincer\n\nWhite continues with 'a' or 'b'.",
+                "nckdpd": "Black continues with 'a' or 'b'.",
+                "nckdpdpc": "White continues with 'a' or 'b'. White 'b' is tough-minded.",
+                "nckdpdpcqd": "White 6 provokes a fight.",
+                "ncpe": "Keima = Narincha = Fei = Knight's Move"
+              }
+            },
+            {
+              "id": "3-3/ae5c0f72",
+              "title": "Attachment (Q17)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qc"
+                ],
+                "white": []
+              },
+              "variationTree": "pcpdocqdodqhkc0<<<<qdrcqeoc0<<<<<<",
+              "comments": {
+                "": "San-San = Sam-Sam = San-San = 3-3 Point\n\nThe san-san (3-3) point, emphasizing territory at the expense\nof influence (especially following an approach at 'a'). \n\nAll joseki for the 3-3 point are relatively simple.\n\nWhite approaches are 'a *' to 'c *'. White 'b *' to 'e' are played\nwhen the top side is favored (such as an extension).",
+                "pc": "White 2 is not recommended.",
+                "pcpd": "White 'a' is sensible (a change of strategy from the silliness\nof White 2), but White 'b' is to be expected.",
+                "pcpdocqdodqhkc": "Of course, either player could have played on the fourth line\ninstead.",
+                "pcpdqd": "Chances are that White had complications in mind with White 2,\nhence the cross-cut.",
+                "pcpdqdrc": "Black could have as well played R18 rather than S17 (as shown).\n\nRegardless of continuation, Black captures either White 2 or\nWhite 4."
+              }
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "title": "5-3 point (mokuhazushi)",
+          "josekis": [
+            {
+              "id": "5-3/3af17dfa",
+              "title": "Low approach (Q17)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qe"
+                ],
+                "white": []
+              },
+              "variationTree": "pcodocndncmdlcqj0<<<mcqcncqdjc0<<pdpe1<<<<<<ncpepfoeqdocqclc0<<<<<<odndofneoeqhqdqbpbrdrcqc0<<<repbqfqk0<<<<<<<qfrfqgqdoergqhrb0<<<<<<<<<<<<mcodrcpfqfpgqgphqijd0<<<<<<<<<<<",
+              "comments": {
+                "pcodocndmcqcpd": "Overplay"
+              }
+            },
+            {
+              "id": "5-3/1e9821ed",
+              "title": "High approach (P16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "qe"
+                ],
+                "white": []
+              },
+              "variationTree": "odpcocpbobpfkc0<ldqdpdperdqfrepf0<<<<<<<<ofpeoepgjd0<<<<<pdoepfkc0<<<<<mcpcrcpfqfpgqgphqijd0<<<<<<<qhqdperd0<<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "5-3/4e2e1bb6",
+              "title": "High approach (Q15)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oc"
+                ],
+                "white": []
+              },
+              "variationTree": "pepdoeqeqfqdpg0rfndog0<<<<<<qeoeqdqcrcqbofnenfmeqj0<<<<<<<ofqcjc0<pbqcpcodqbrcrbrf0<<<<<<<qhqc1<<<ofqdneodnfpfpgqf0<repgqh0<qf0<<<<<<<<<<oeodndpdpc0<<pdndpcofqeneqfnc0<<<<qeofncrcqhkdle0<<<qgrcrb0<<<<<<qdncpfneofpcqcob0<<<<<pbobpcpfneldme0<<<<<<<<pfqeqdqfofncpbobpc0<<<<<<<<<<<ofnepdpfqfpgqgphqhpipcqi0ob0<qipj0<<<<<<<pcqfogphnbmfohpi0<<<<<<ogqfnfqgob0<<<<<pgqfqgrergrdpcqb0<qcpc0<<<<<<<<pcpi0qcpf0<<<<pfqenepgnfogqcqj0<<<<<qfrfognfnengrgreqg0<<<qhpg1<<<<rgrephodnendmd0<<<<<<<odnendpdqdpcmdme0<<<<<<<<<odnepdndncpcqcqbrdnb0<<<<mcnbobmbqc0<<qfobog0<<<<<pcqfncmcobog0<<<<ncqfpgqgph0<<<pgqfqgre0<<<<<<<<<qdneqfpgqgphqhpiqjic0<<<<<<<pgqfqg0<<ogqfpcpbqbnbpaob0<<<<<<<<<<<pdodpcpfqfqg0<<<<<<qcqdrdrepdqeoeofnenfmercrb0<<<<<<<<<<<<qh0<<",
+              "comments": {
+                "": "Mokuhazushi = Waemok = Wai`mu` = 5-3 Point\n\nThe mokuhazushi (5-3) point was popular in the Edo period in\nJapan (1600 - 1867). It emphasizes influence; territorially,\nit is inferior to the 3-4 point. \n\nApproach moves for White range from 'a *', 'b *' or 'c *'. White\n'a' is typical.\n\nAfter 'a', the 5-3 point can lead to different complicated joseki:\nthe taisha and the near low pincer. Both can be avoided or simplified.\n\nWhite 'b' forfeits the corner, and emphasizes the right side,\nso locally this is disadvantageous for White. \n\nWhite 'c' leads to a division of profit for White and influence\nfor…",
+                "pe": "Takamoku Kakari\n\nWhite prevents Black from gaining influence, but in the local\ncontext, abandoning profit in the corner entails a loss.\n\nBlack 'a *' and 'b *' are best. Black 'c *' emphasizes the right\nside. Black 'd *' emphasizes influence over the top side. Black\n'e *' emphasizes territory.\n'f' is not recommended.\n\ne5, d4, c 3, b2, a1",
+                "pepd": "Kosumi-Tsuke = Diagonal Attachment\n\nBlack 3 looks strange but can be quite practical.\nWhite continues at 'a *' or 'b *'.",
+                "pepdoeqeqfqd": "White continues with 'a *' or 'b *'.",
+                "pepdoeqeqfqdrfndog": "White 10 is proper as Black 'a' would spoil White's shape.",
+                "pepdqeoe": "White continues with 'a *' or 'b'.",
+                "pepdqeoeqd": "Black continues with 'a *' or 'b'.",
+                "pepdqeoeqdof": "White continues with 'a'. White 'b' and 'c' are mistakes.",
+                "pepdqeoeqdofpbqcpcodqbrcrbrf": "White continues with 'a'. Playing elsewhere ('b') is a mistak\\\ne.\nPlaying 'c' is submissive, but may be okay depending on the right\nside.",
+                "pepdqeoeqdofqh": "White 8 is a mistake.",
+                "pepdqeoeofqdneodnfpf": "White continues with 'a' or 'b'.",
+                "pepdqeoeofqdneodnfpfre": "White 12 is a move of strong resistance.\n\nBlack continues with 'a', possibly 'b'.",
+                "pepdqeoeofqdneodnfpfrepgqh": "The fighting prospects from here are equal.",
+                "peoe": "Tobi-Tsuke (jump-attach)\n\nBlack 3 only makes sense, if Black can build a moyo on the top\nside which is bigger than the corner or right side.\n\nWhite may respond with 'a *' or 'b *'.\n'c' is inferior.",
+                "peoeod": "Black continues with 'a *' or 'b'.",
+                "peoeodpdnd": "Black continues with 'a'. Black 'b' to 'd' are not recommended.",
+                "peoeodpdndpc": "White continues with 'a' or 'b'. White must have the ladder to\nplay 'a'.",
+                "peoeodpdndpcof": "White must have the ladder to play 8.",
+                "peoeodpdndpcqeofnc": "Black continues with 'a' or 'b'.",
+                "peoeodpdndqd": "Black 7 may look like good shape, but is a slack move here.",
+                "peoeodpdndqdnc": "Black continues with 'a'. Black 'b' is not recommended.",
+                "peoeodpdndqdncpb": "Black 9 is not recommended.",
+                "peoeof": "Black continues with 'a *' or 'b *'. Black must have the ladder\nto play 'b'.",
+                "peoeofnepd": "'A *' is joseki, 'B' is ok.",
+                "peoeofnepdpf": "White continues with 'a *'. White 'b' is bad timing. Black 'c'\nis unreasonable.",
+                "peoeofnepdpfqf": "White plays 8 to take the corner.",
+                "peoeofnepdpfqfpgqgphqhpi": "White continues with 'a *'. White 'b', hoping to cut off Blac\\\nk\n1 next, is unreasonable.",
+                "peoeofnepdpfqfpgqgphqhpipc": "Black continues with 'a' for the right, 'b *' for the top s\\\nide.",
+                "peoeofnepdpfpc": "White 8 is not recommended.\n\nBlack continues with 'a', or, with a favorable ladder, 'b'.",
+                "peoeofnepdpfpcog": "Black plays 3 with a favorable ladder.",
+                "peoeofnepdpfpg": "White 8 is unreasonable. White cannot capture the Black stone\\\n.",
+                "peoeofnepdpfpgqfqgre": "Black 11 is a standard tesuji enabling him to capture the two\\\n\nWhite stones.",
+                "peoeofnepdpfpgqfqgrergrd": "White may try 'a' or 'b'. Neither work.",
+                "peoeofnepdpc": "'A' for the center, 'B' for the corner.",
+                "peoeofpf": "Black must have the ladder to play 5. White continues with 'a\n*' or 'b'. White 'c' results in a loss.",
+                "peoeofpfqe": "Black continues with 'a *' or 'b *'.",
+                "peoeofpfqeqf": "White continues with 'a *'. White 'b' is unreasonable.",
+                "peoeofpfqeqfrf": "'A *' is correct, 'B' is disadvantageous.",
+                "peoeofpfqeqfrfognf": "There is a similar position starting with 1 instead of th\\\ne marked stone, refererenced by the numbers.",
+                "peoeofpfqeqfrfognfne": "With an unfavorable ladder, White must play 'a *'. But if\\\n the\nladder favors White, White plays 'b'.",
+                "peoeofpfqeqfrfognfneng": "White plays this way when the ladder is unfavorable.",
+                "peoeofpfqeqfrfognfnengrgreqg": "White continues with 'a *' or 'b'.",
+                "peoeofpfqeqfrfognfneqh": "White plays 12 if the ladder to capture the two White c\\\nenter\nstones does not work for Black.",
+                "peoeofpfqeqfod": "White 8 is unreasonable.",
+                "peoeofpfod": "White 6 is vulgar, but playable.",
+                "peoeofpfodnepdnd": "White continues with 'a'. White 'b' is also playable if White\ndoes not mind giving Black good outside influence.",
+                "peoeofpfodnepdndnc": "Black continues with 'a' or 'b'.",
+                "peoeofpfodnepdndncmcnb": "Black continues with the tough-minded move of 'a', or the s\\\nimpler\n'b'.",
+                "peoeofpfodnepdndncmcnbqfobog": "Black's ponnuki shape from capturing White 4 gives Black \\\na very\nfavorable result.",
+                "peoeofpfodnepdndpc": "Locally, White 10 is not recommended, but is okay if the resu\\\nlting\nBlack outside influence does not count for much.\n\nDepending on the side of favor, Black continues with 'a' or 'b'.",
+                "peoeofpfodnepdndpcnc": "White continues with 'a'. White 'b' loses the game.",
+                "peoeofpfqd": "White cannot get a favorable result.",
+                "peoeofpfqdne": "White continues with 'a'. White 'b' and 'c' are no good.",
+                "peqc": "Sansan\n\nBlack 3 is too low.",
+                "peqcqd": "Black continues with 'a *'. Black 'b' is not recommended.",
+                "peqcqdrd": "Black 5 is a coarse move.",
+                "peqh": "Nikken Basami = Dukan Hyeopgong = E`r Jia = 2-Space Low Pincer\n\nIf you are high-dan and know the follow-up. mail it to me please: kogo@waterfi\\\ne.us."
+              }
+            },
+            {
+              "id": "5-3/4770336b",
+              "title": "Low approach (R17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oc"
+                ],
+                "white": []
+              },
+              "variationTree": "qcqdrdpdqercrbrescqf0<<<<rerfrcseqbqh0pe0<<<<<<reqbrcpcpflc0<<<<<<qepcodreqgrfog0<pdpeoepgneob0<<<<<<<<<<<pcpdobncnbmcrdrercqf0<<<<<<<<<<pdqeqdrd0<pfqdnfqg0<<<<qdqe1<reqe1<<qe0pfodpdpcobndqdrdrercmcmdlc0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Mokuhazushi = Waemok = Wai`mu` = 5-3 Point\n\nThe mokuhazushi (5-3) point was popular in the Edo period in\nJapan (1600 - 1867). It emphasizes influence; territorially,\nit is inferior to the 3-4 point. \n\nApproach moves for White range from 'a *', 'b *' or 'c *'. White\n'a' is typical.\n\nAfter 'a', the 5-3 point can lead to different complicated joseki:\nthe taisha and the near low pincer. Both can be avoided or simplified.\n\nWhite 'b' forfeits the corner, and emphasizes the right side,\nso locally this is disadvantageous for White. \n\nWhite 'c' leads to a division of profit for White and influence\nfor…",
+                "qc": "San-san\n\nWhite goes for profit at the expense of influence. A ladder helps\nWhite when playing 2.\n\nBlack replies with 'a *' to 'f\u0013'. Black must have the ladder\nto sucessfully play 'b'.\n\ne5, d4, c 3, b2, a1",
+                "qcqd": "Uezuke-Hiki = Attach on top to draw back\n\nBlack must have the ladder to play this way.\n\nWhite continues with 'a'. White 'b' is not recommended.",
+                "qcqdrd": "Black continues with 'a' or 'b'.",
+                "qcqdrdpd": "White continues with 'a' or 'b'. White should play 'a' if the\nladder to the bottom left is favorable to White.\n\nWhite 'b' does not involve a ladder.",
+                "qcqdrdpdqe": "Black continues with 'a' with a favorable ladder, or 'b' if the\\\n\nladder is unfavorable.",
+                "qcqdrdpdqere": "Black must play this way with an unfavorable ladder, though t\\\nhe\nesult favors White.",
+                "qcqdrdpdqererf": "'A' or 'B'.",
+                "qcqdrdpdqererfrcseqb": "Black's corner is small, and White's ponnuki shape powerful\\\n.\n'A' or 'B'.",
+                "qcqdrdqepcodreqg": "White continues with 'a'. White 'b' is not recommended.",
+                "qcqdrdqepcodreqgpd": "White 10 is not recommended.",
+                "qcqdpc": "White 4 is not recommended.",
+                "qcqdpcpdobncnbmcrdrercqf": "Black's thickness is superior.",
+                "qcpd": "Kosumi = Ibkucha = Jian = Diagonal\n\nBlack 3 is playable only in this situation. This shape is a bit\nvulgar, and so is not seen in other joseki. \nBlack should have a favorable ladder to play this way.\n\nWhite continues with 'a'. White 'b' and 'c' are mistakes.",
+                "qcpdqe": "White 4 is the only good move.\n'A' or 'B'.",
+                "qcpdqd": "White 'b' is a mistake.",
+                "qcpdqdqe": "White must now submit to playing 'a'. A cut at 'b', starting\na fight, is unreasonable.",
+                "qcpdre": "White 4 is a mistake.",
+                "qcpdreqe": "White continues with 'a'. White cannot play 'b'.",
+                "qcqe": "Ikken Basami = Hankan Hyeopgong = Yi Jia = 1-Space Low Pincer\n\nAs the 3-3 point is easily settled, there must be some strategic\nadvantage in attacking it with the pincer, namely, surrounding\nsupport. By itself, the pincer is somewhat unreasonable.",
+                "qcpf": "Oogeima = Nunmokcha = Da` Fei = Large Knight's Move"
+              }
+            },
+            {
+              "id": "5-3/18fdd80f",
+              "title": "Low approach (R15)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oc"
+                ],
+                "white": []
+              },
+              "variationTree": "qeqcqhpgqgoe0<<<pgqi0<<oeqcpg0<<qgqclc0<<<<",
+              "comments": {
+                "": "Mokuhazushi = Waemok = Wai`mu` = 5-3 Point\n\nThe mokuhazushi (5-3) point was popular in the Edo period in\nJapan (1600 - 1867). It emphasizes influence; territorially,\nit is inferior to the 3-4 point. \n\nApproach moves for White range from 'a *', 'b *' or 'c *'. White\n'a' is typical.\n\nAfter 'a', the 5-3 point can lead to different complicated joseki:\nthe taisha and the near low pincer. Both can be avoided or simplified.\n\nWhite 'b' forfeits the corner, and emphasizes the right side,\nso locally this is disadvantageous for White. \n\nWhite 'c' leads to a division of profit for White and influence\nfor…",
+                "qe": "'A' is better than 'B'.\n'C' is not recommended.",
+                "qeqc": "'A' is correct, 'B' is questionable.",
+                "qeqcqhpg": "Black doesn't just take the corner, but still can go for influence.",
+                "qeoeqc": "This result is the same variation as the one referenced by the\ngiven numbers (which also has only one move continuation here)."
+              }
+            },
+            {
+              "id": "5-3/741724bc",
+              "title": "Approach (P15)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oc"
+                ],
+                "white": []
+              },
+              "variationTree": "oeqd0qcncodndne0<<ndodobmcme0<<mcpcnbobncpdpbqboa0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Mokuhazushi = Waemok = Wai`mu` = 5-3 Point\n\nThe mokuhazushi (5-3) point was popular in the Edo period in\nJapan (1600 - 1867). It emphasizes influence; territorially,\nit is inferior to the 3-4 point. \n\nApproach moves for White range from 'a *', 'b *' or 'c *'. White\n'a' is typical.\n\nAfter 'a', the 5-3 point can lead to different complicated joseki:\nthe taisha and the near low pincer. Both can be avoided or simplified.\n\nWhite 'b' forfeits the corner, and emphasizes the right side,\nso locally this is disadvantageous for White. \n\nWhite 'c' leads to a division of profit for White and influence\nfor…",
+                "oe": "'A' or 'B'.",
+                "oeqd": "This result is similar to the variation referenced by the numbers.",
+                "oeqcnc": "The move is questionable.\n'A' is correct, 'B' is not recommended, Black falls back from\na superior to an equal or inferior position.",
+                "oeqcncndod": "'A' fight, 'B' both settle."
+              }
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "title": "5-4 point (takamoku)",
+          "josekis": [
+            {
+              "id": "5-4/a0b384ec",
+              "title": "Attachment (R17)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pe"
+                ],
+                "white": [
+                  "pc"
+                ]
+              },
+              "variationTree": "qcqbqdobqhnd0<qind0<<<<<<",
+              "comments": {}
+            },
+            {
+              "id": "5-4/7cdcd92a",
+              "title": "Knight's-move pincer (O16)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "black",
+              "initialStones": {
+                "black": [
+                  "pe"
+                ],
+                "white": [
+                  "pc"
+                ]
+              },
+              "variationTree": "ndqeqfqdpfnb0<<<<ncmcmdocnbneobld0<<odoblcpdoeqeqfrd0<<<<<<<<<<<mdmcldqeqfqdpfodoekc0<<<<<<<<<<<<",
+              "comments": {
+                "ndqeqfqdpfnb": "Tenuki is also possible. See variation and its follow-ups...",
+                "ndnc": "Ladder related..."
+              }
+            },
+            {
+              "id": "5-4/b3d994fa",
+              "title": "Low approach (R16)",
+              "boardSize": 19,
+              "subBoardSize": 12,
+              "topLeft": [
+                0,
+                7
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "od"
+                ],
+                "white": []
+              },
+              "variationTree": "qdpfocncpcndrfqgrgqi0<<<<mdqfqgrfpdqcph0<<<pgofrfqh0<<<<<oepe1<<<<pdpcqerdqcqbrercmd0<<<rcqbrbncpbob0<<<<ncpbme0<qbobpbmd0<<<<<reqbpbncnbpa0<<<qfncpeoe0<<<<<<ncnbmcmblc0<<mbmcndlbob0<<<<<rerfndmcnekd0<mdld0<<<nbmbmcnd0<<<<ndqg0<<<<qcndmclelc0<<<mdndnencmelc0<<<ncnenbofpe0<<<<<<ncnbmc0<mcnb1<ndmc1<<<<<<pc0<qfpgocncpcmdqgph0<<<<pdpcqcrdncqbmd0<<<qeqb1<<<<pcpd0<<qgqcphpdqerc0<<<rcpdqephqbqh0<qhrbqbpc0<<<<<<<<phocncpcmd0<<<icqcrcpcrbqh0<<<<<<qhpeoephqiohngojpk0<<<<<<<<<<qcrepcpg0<rcmcocpgnfjc0<<<<<pgpcpdqbrcrbocpb0<<<<<<<<pg0rcpdrepg0<<<<qeperepdoerfpgqhocpbob0<<<<<<<<<repeqgrfrdqh0<<<<<<<rfqcrc0<<<pgqfpfocncpcmdqgph0<<<<<<qg0<ocpcpdqcobrd0<rcrbrdobncnboend0<mcoe0<<<<<<<<<<<<qgocncpcndpeog0of0<pfqe0<<<<pcpdqcrcrbrdobncpeoend0<nbqe0<<<<<<<ncrdrercoeqendpe0<<<<<<<<<<<peogoemdne0<<<qcrcpcreogoemdmeldpj0<<<<<<<<<<pfqcrcpcqfrbqi0<<<<<<qfpfpg0<pgoe0<<<repdoeqfpfrfpgqhocpb0<<<<<<<ocpfoeqfqb0<<qgqfrfnfldqi0<<<<<<<<qeqfpfperfqgrgqhrhofqiqc0<pdpg0<<<rdof0<ofrdqcrc0<<<<<<<qg0<<perdqcnepfqgnfmfngme0qj0<<<<<<<<<rdpfocncpcnd0<<<<<<<peqc1<<pdqcqereqfrfqhqgpgrgohobnc0<<<<<<<<<<<qeqcrcrbqbpcsbpfrajdqfpg0<<<jdrdrare0<<<<<<<<pbqbpcqhkd0<<<<<<<<<<",
+              "comments": {
+                "": "Takamoku = Gomok = Gaomu` = 5-4 Point\n\nThe takamoku (high) point (5-4). With its emphasis on influence,\nthe 5-4 point complements the 4-4 (hoshi) point in creating an\ninfluence-oriented fuseki.\n\nWhite approaches with 'a *' or 'b'. White 'b *' is played when\nBlack has support at the top.\n\nAfter White play tenuki 'c', Black can choose a shimari.\n\nThere are several 5-4 trick plays, often involving unfathomable\neading, with pitfalls at any point. Some simple variations of\ntrick plays are covered here.",
+                "qd": "Komoku\n\nBlack responds with 'a *', 'b *', 'c *', 'd *' to 'f *'.\n\nBlack 'c' is the most appropriate response given the influence\norientation of the 5-4, but also the most complicated one.\n\n'e' and 'g' are trick plays. Black 'g' takes thickness for corner\nterritory.\n\n'h' is not recommended.\n\ng7, f6, e5, d4, c3, b2, a1",
+                "qdpf": "Keima = Narincha = Fei = Knight's Move\n\nBlack 3 can be regarded as the most appropriate continuation\nfrom the 5-4 stone. At least, it is the most complicated.\n\nWhite continues with 'a *' or 'b *' or plays elsewhere ('c *').\nWhite 'd' is not recommended.\n\nMost of the complications come after 'a', but White can simplify.\n\nWhite should have the ladder for 'b'.",
+                "qdpfoc": "Black continues with 'a' to 'c'. \n\nBlack 'a *' and 'b *' aim to build influence along the top and\nare easy.\n\nBlack 'c *' starts a difficult fight. Black must have the ladder\noff Black 3 to play this way.",
+                "qdpfocncpc": "Black continues with 'a *', 'b *' or 'c *'.\n\nC is for aggressive fighters",
+                "qdpfocncpcnd": "White often plays elsewhere (a). White continues locally with\n'b'.",
+                "qdpfocncpcmd": "White continues by playing elsewhere (a). Local continuations\nat 'b' and 'c' are shown.",
+                "qdpfocncpcmdqf": "White 8 is not recommended. Black gets good shape for small W\\\nhite\nprofit.",
+                "qdpfocncpcmdqfqg": "'A' or 'B'.",
+                "qdpfocncpcmdoe": "White 8 is a mistake.",
+                "qdpfocpdpc": "Black continues with 'a *' or 'b'.",
+                "qdpfocpdpcqe": "White continues with 'a' or 'b *'.",
+                "qdpfocpdpcqerd": "Black continues with 'a' or 'b'.\nSome professionals think, that 'a' is advantageous for White, and play only 'b\\\n'.",
+                "qdpfocpdpcqerdqc": "White continues with 'a' or 'b'. 'c' is questionable.",
+                "qdpfocpdpcqerdqcrc": "'A' is correct. 'B' is not recommended.",
+                "qdpfocpdpcqerdqcrcnc": "White continues with 'a' or 'b'.",
+                "qdpfocpdpcqerdqcrcncpbme": "Black 13 can also be at 'a', depending whether Black \\\nwants to\nemphasise the center or the top.",
+                "qdpfocpdpcqerdqcreqb": "'A' -> White is enclosed in the corner, 'B' -> White to r\\\night,\nBlack get the top side.",
+                "qdpfocpdpcqerdnc": "White continues with 'a', possibly 'b'.",
+                "qdpfocpdpcqerdncnb": "Black continues with 'a' to enlargen the wall. Black 'b' \\\ntakes the corner for the top side..",
+                "qdpfocpdpcqerdncre": "Black continues with 'a' to emphasize the top, 'b' to sec\\\nure\nthe right side.\n\nBlack 'a' and White cuts at 'b'.",
+                "qdpfocpdpcqerdncrerf": "White continues with 'a'. White 'b' is not recommended.",
+                "qdpfocpdpcqerdncrerfnd": "White's cut provokes a fight.",
+                "qdpfocpdpcqerdncrerfndmc": "White continues with 'a', possibly 'b'.",
+                "qdpfocpdpcqerdncrerfndmcne": "If White chooses to activate the stone for a fight.",
+                "qdpfocpdpcqerdncrerfnb": "White 12 is not recommended, especially if Black has \\\na favorable\nladder to the top left.",
+                "qdpfocpdpcqeqc": "'A *' and 'B *' are joseki.\n'C' is tough-minded.",
+                "qdpfocpdpcqeqcndmclelc": "There is a small avalanche variation which results in the same\nshape of stones, but here the color of the outside wall has sente,\nwhile in the nadare variation it is the color of the upper side\nterritory.",
+                "qdpfocpdpcqeqcmdnd": "'A *' is joseki, 'B' is disadvantageous.",
+                "qdpfocpdpcqeqcmdndnencmelc": "Locally, 'a' is the next play for either player.",
+                "qdpfocpdpcqeqcnc": "Black 9 is tough-minded, but the outcomes do not necessaril\\\ny\nfavor Black.\nOne result is giving White influence while struggling for life\nunderneath - a change from Black's original strategy.\nWhite must reply carefully.\n\nWhite continues with 'A' or 'B'. White 'C' is submissive.",
+                "qdpfocpdpcqeqcncnb": "White 10 is submissive.",
+                "qdpfocpdpcqeqcncmc": "White 10 is a mistake.",
+                "qdpfocpdpcqeqcncnd": "At best, Black ends up giving White thickness while Black\\\n crawls\nalong the third line to make life of a group started by Black\n9.\n'A' is correct, 'B' is a mistake.",
+                "qdpfocpc": "Black must have a ladder off 3 to play this way.",
+                "qdpfqf": "White must have ladder to play this way.\n\nBlack continues with 'a *', 'b *' or 'c *'.\nIf White doesn't have the ladder, 'b *' forces him into an inferior\nvariation.\nBlack 'd' gains a big wall, but gives a big corner and is inferior.",
+                "qdpfqfpg": "White continues with 'a *'. White 'b' is willing to give up the\ncorner for influence over the lower right.",
+                "qdpfqfpgoc": "Black continues with 'a *' or 'b *' for an exchange of White\nterritory for Black influence. \n\nBlack 'c' gives Black the corner. The exchange is even if White\ncan use his sente to get an important point, such as nearby the\nmarked point.",
+                "qdpfqfpgocpdpcqc": "White continues with 'a *' for a peaceful resolution, or 'b'\nto start a fight.",
+                "qdpfqfpgocpdpcqcqe": "White 10 is a good way to start a fight.\n\nBlack continues with 'a'. Black 'b' is a mistake.",
+                "qdpfqfpgocpc": "Black 'c' was an innovation by Yoo Chang-hyuk in the 27th Wan\\\ngwi.",
+                "qdpfqfpgqg": "In absense of other stones, White 6 gives Black a slightly favo\\\nable\nesult. There may be reasons for White to play this way.\nBlack can take the corner with 'A', press down from above with\n'B' or provoke a cut with 'C'.",
+                "qdpfqfpgqgqc": "White continues with 'a' or 'b'.",
+                "qdpfqfpgqgqcphpdqerc": "Locally, the result slightly favors Black.\n\nNext, White extends down the right side, at least as far as the\nmark.",
+                "qdpfqfpgqgqcrcpdqeph": "White continues with 'a' or 'b'.",
+                "qdpfqfpgqgph": "'A' is correct. The attempt to eliminate Black's thickness on\\\n\nthe outside like on 'B' fails, except if White has strong positions\nin the upper left and lower right corner (in which case Black\n3 is already questionable).",
+                "qdpfqfpgqgphicqcrcpcrb": "If Black is in the upper left, he will first attack the Whi\\\nte\nstone with 'A'.\nElse he will immediately switch to 'B'.",
+                "qdpfqfqc": "White continues with 'a *' or 'b'; 'c' is not recommended.",
+                "qdpfqfqcre": "Black continues with 'a *', possibly 'b' if corner territory\nis important.\nBlack gives the corner for influence on 'c'.",
+                "qdpfqfqcrc": "White 6 is not recommended.",
+                "qdpfqfqe": "'A' is correct. 'B' reverts to a joseki and fails to punish Black\\\n.",
+                "qdpfqfqerepeqgrfrdqh": "Same variation as the referneced by the numbers giving a differ\\\nent\norder of moves.",
+                "qdpfrf": "White 4 is a half-hearted move; White is too low.",
+                "qdpg": "Oogeima = Nunmokcha = Da` Fei = Large Knight's Move\n\nBlack presses on a large scale with 3, like a samurai brandishing\na sword. Black aims at an immediate lead, so White must be cautious.\n\nWhite best response is to play elsewhere ('a'), but may locally\ncontinue with 'b *'. White 'c' is possible.",
+                "qdpgqf": "Black continues with 'a' or 'b *'.",
+                "qdpgqfqg": "'A *' is correct, 'B' is possible.",
+                "qdpgocpcpdqc": "'A' is simple, but White needs the ladder, 'B' is complicated.",
+                "qdpgocpcpdqcob": "\u0016\nIf you are high-dan and know the follow-up. mail it to me please: kogo@waterfi\\\ne.us.",
+                "qdpgocpcpdqcrcrbrdobncnb": "White 'A' is ok, White 'B' is disadvantageous.",
+                "qdqg": "Nikken Basami = Dukan Hyeopgong = E`r Jia = 2-Space Low Pincer\n\nWhite continues with 'A *', 'B', 'C' or 'D'.",
+                "qdqgoc": "'A *' is simple, 'B' complicated.",
+                "qdqgocncpcnd": "'A *' is ok, 'B' is bad.",
+                "qdqgocncpcndpe": "'A *' or 'B'.",
+                "qdqgocncpcndpeof": "Later, Black has A.",
+                "qdqgocpcpdqc": "'A' wants the right, 'B' the top side.",
+                "qdqgocpcpdqcrcrbrdobncpe": "'A' is possible, 'B' is questionable.",
+                "qdqgpe": "Black continues with 'a' or 'b'. Black 'a' leaves options for\nlater play. After Black 'b' Black 3 is in a badposition. Both\nmoves end with Black sente.",
+                "qdqgpeqc": "tsuke-hiki (attach to draw back)",
+                "qdqgpf": "Black may try 'a' or 'b'. Black 'b' abandons Black 3.",
+                "qdqgpfqc": "tsuke-hiki (attach to draw back)",
+                "qdqgqf": "'A' or 'B'.",
+                "qdqgqfpfpg": "See the variation where 5 is played before 3 for this joseki.",
+                "qdre": "Hikui Katatsuki = Low Shoulder Attack\n\nWhite 'A' is correct and disadvantageous for Black. White 'B'\nleads to a low position. White 'C' is being tricked the most.",
+                "qdrepd": "'A' or 'B'.",
+                "qdrepdocpf": "'A' is correct, 'B' makes it worse for Black.",
+                "qdreqeqf": "White continues with 'a' or 'b'. 'c' is inferior.",
+                "qdreqeqfpfpe": "White 'a' yields an equal result. White 'b' results in a big\nko, the outcome uncertain.",
+                "qdreqeqfpfperfqgrgqh": "'A' is correct, 'B' is too anxious.\n'C' gives Black profit.",
+                "qdreqeqfpfperfqgrgqhrhof": "White continues with 'a' or 'b'.",
+                "qdreqeqfpe": "This normally bad shape is a calm play here.",
+                "qdreqeqfperdqcnepfqgnfmfng": "Black continues with 'a'. Black 'b' invites a cut at 'a' and\na subsequent loss.",
+                "qdreqeqfrdpfocncpcnd": "Without the marked stones the situation would be joseki, their\nexchange is bad for White.",
+                "qdrepe": "White 4 is a mistake.",
+                "qdrepeqc": "White 'a' and 'b' both give bad results for White.",
+                "qdpd": "'A' or 'B' give White a favorable result.",
+                "qdpdqeqcrc": "'A' or 'B'.",
+                "qdpdqeqcrcrbqbpcsbpf": "White has the choice to put Black's influence to the top with 'A'\\\n or the right with 'B'."
+              }
+            },
+            {
+              "id": "5-4/5f12dcbc",
+              "title": "Low approach (R17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "od"
+                ],
+                "white": []
+              },
+              "variationTree": "qcqeocndreqfncmdrfqgpdpeqd0<<<<<<<<<ncpdpenbndmbrcrbpbpcrd0<<<<<<<<<ndpcobpdpbmcrerfrdqg0<<<rdreneld0<<<<<<oepbmd0<<<<<<<pdpeocncnbndmbrcrbpbpcrd0<<<<<<mc0<ndoenbmcmblc0<<<mcnbld0mbobpcmd0<<<obmblclb0<<<<<<<<<<<<pcqdofqg0<peqepf0<rfpg1<<<qeqbqdobqh0<<<<<peobqdmcpcpbqbrcrbocpdnd0<<<<<<<<rc0pcmc1<<<re0<qdqepdrdrcrbrescqfobpe0<<<<<<rerfrcseqbph0<<<<<<<rdpdpcpeqbocpbnd0<<<<<pepcqfoepfndofne0<<<<<pfocndrfrgreqh0<<<<<<<<<<<rdqepcocreqgrfog0<<<<<<<<<<",
+              "comments": {
+                "": "Takamoku = Gomok = Gaomu` = 5-4 Point\n\nThe takamoku (high) point (5-4). With its emphasis on influence,\nthe 5-4 point complements the 4-4 (hoshi) point in creating an\ninfluence-oriented fuseki.\n\nWhite approaches with 'a *' or 'b'. White 'b *' is played when\nBlack has support at the top.\n\nAfter White play tenuki 'c', Black can choose a shimari.\n\nThere are several 5-4 trick plays, often involving unfathomable\neading, with pitfalls at any point. Some simple variations of\ntrick plays are covered here.",
+                "qc": "San-san\n\nWhite plays the 3-3 when Black has a stone at top such as marked.\n\nBlack continues with 'a *' to 'c'.\nBlack 'd' is possible, but not recommended.\n\nOutcomes:\n'a' - White corner, Black thickness.\n'b' - White on the right, Black top.\n'c' - White corner, Black sente.\n'd' - Black choice; ladder is important.",
+                "qcqe": "Keima = Narincha = Fei = Knight's Move\n\nWhite lives in the corner. Black gets thickness.\n'A' or 'B'.",
+                "qcqeoc": "'A' or 'B' are ok.",
+                "qcqeocnc": "'A' is ok, 'B' is questionable.",
+                "qcqeocncpdpenbndmbrc": "Later",
+                "qcqeocncndpcob": "'A' starts a fight and gives White a small corner. 'B' needs\nthe ladder.",
+                "qcqeocncndpcobpdpbmc": "'A' is correct, 'B' is wrong.",
+                "qcqeocncndpcobpdpbmcrdreneld": "Now, 'A' is necessary. After 'B' the White corner dies.",
+                "qcqepdpeoc": "White 4 and 6 may also be played in different order.",
+                "qcqepdpeocnc": "White continues with 'a'. White 'b' is vulgar.",
+                "qcqepdpeocncnb": "Black continues with 'a'. Black 'b' is not recommended.",
+                "qcqepdpeocncnbndmbrc": "Black 11 is post-joseki.",
+                "qcqepdpeocncnbmc": "Black 9 is not recommended.",
+                "qcqepdpeocncnd": "White 8 is insensible. This move helps Black fix his shape.",
+                "qcqepdpeocncndoe": "White continues with 'a'. White 'b' may be played if there is\nno Black extension (as shown).",
+                "qcqepdpeocncndoenb": "White plays 10 is Black has an extension at top as shown.",
+                "qcqepdpeocncndoenbmcmblc": "Black has superior thickness. White 8 is no threat; better to\nhave reserved the cutting point at Black 9, like in the variation\nwithout these two stones.",
+                "qcqepdpeocncndoemc": "White may try 10 if there is no Black stone at top.",
+                "qcqepdpeocncndoemcnb": "'a' is ok, 'b' is ok with the ladder, 'c' is not recommended.",
+                "qcpc": "Kosumi-Tsuke = Diagonal Attachment\n\nBlack must have a stone at top to play this way.\nWhite 'A' or 'B' are possible.",
+                "qcpcqd": "Black continues with 'a' or 'b'.",
+                "qcpcqdof": "ikken tobi (1-space jump)",
+                "qcpcqdpe": "Kata-tsuki = Diagonal attack\n\n'A' is correct, 'B' is questionable.",
+                "qcpcqdperf": "Black continues with 'a'. Black 'b' is an overplay.",
+                "qcpcqe": "Same variation as Black 1 and 3 played in reverse.",
+                "qcpe": "Kosumi = Ibkucha = Jian = Diagonal\n\nBlack 3 seems vague, as it does not much affect White 2, but\nis a steady move to create thickness. Further, White does not\nhave an easy continuation.\n\nBlack plays this way to get sente.\n\nLocally, White continues with 'a' or 'b'. White can consider\nthese two points miai, and play elsewhere ('c').",
+                "qcpeobqd": "'A' goes outside. 'B' and 'C' are enclosed in the corner.",
+                "qcpeobqdrc": "White 6 overemphasizes the corner.",
+                "qcpeobqdpc": "The joseki ends.\n\nBlack continues at 'a' locally, or extends down the right side.\n\nBlack 'c' is an overplay.",
+                "qcpeobqdpcmc": "Black 7 is a logical continuation at top.",
+                "qcqd": "Tobi-Tsuke = Jump-Attach\n\nBlack 3 is possible, but is not recommended.\n'A' is correct, 'B' leads to a low position.",
+                "qcqdqe": "Black 4 is better than a hane below Black 3 ('b').\n\nBlack continues with 'a'. Black 'b' is unthinkable.",
+                "qcqdqepdrd": "THe triangled stone now is in bad position.\nBlack plays 'a' when the ladder to capture White 4 is favorable.\nIf that ladder is unfavorable, Black plays 'b'.",
+                "qcqdqepdrdrcrbrescqf": "White continues with 'a'. White cannot afford to play elsewhere\\\n\n('b').",
+                "qcqdqepdrdrcrbrescqfobpe": "The marked stone is now meaningless.",
+                "qcqdqepdrdre": "Black plays this way when White 4 cannot be caught in a ladder.",
+                "qcqdqepdrdrerfrcseqbph": "White gets a nice position on the right.",
+                "qcqdqerd": "Black 5 is unreasonable.",
+                "qcqdqerdpd": "'a' and 'b' are miai. White gains advantage either way.",
+                "qcqdqerdpdpcpeqbocpbnd": "Continuation for Black on A.",
+                "qcqdqerdpdpepc": "'A' or 'B'."
+              }
+            }
+          ]
+        },
+        {
+          "id": "5-5",
+          "title": "5-5 point (go-no-go)",
+          "josekis": [
+            {
+              "id": "5-5/f48a599b",
+              "title": "Low approach (R17)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oe"
+                ],
+                "white": []
+              },
+              "variationTree": "qcocqepg0<qfpgqgphqhpi0<<<<qbrbqdpcpdrdpbrcpg0<<<<<<<<jc0<<pcpbqdocpdrbrcqbncobnd0<<<<<<<<<<<<",
+              "comments": {
+                "": "Go-no-go = Wu~wu~ = 5-5 Point\n\nThe 5-5 was experimented with briefly during the \"New Fuseki\"\nmovement in Japan in the 1930s. The 5-5 point has not retained\npopularity because the 4-4 hoshi (star) point strikes a better\nbalance between influence and territory. As one can see from\nthe variations, though, the 5-5 is playable.\n\nWhite responds with 'a' to 'e'.",
+                "qc": "Best plan for White\nSan-san\n\nBlack continues with 'a' or 'b'.",
+                "qcoc": "White continues with 'a' or 'b'.",
+                "qcocqepg": "White can tenuki here, because the corner is alive. Keima at A is p\\\nossible too",
+                "qcocqf": "Black continues with 'a' or 'b'.\nAnother option is top side extenstion",
+                "qcpcpbqdocpdrbrcqbncobnd": "Joseki"
+              }
+            },
+            {
+              "id": "5-5/1929a0ee",
+              "title": "Low approach (R16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oe"
+                ],
+                "white": []
+              },
+              "variationTree": "qdqereperfocpcob0<<<qfrf1<<rfpeqfpdpfodnendmelc0<<<<<<<<<<pepdpfqcrdodrc0<<<<<<<pcqcpfpdodocncpbobrf0<<<<obocpbnbrfmcqg0<<<<<<<<rfpbqgkc0<<<<qfocncobnbodndnepenf0mekc0<pdkc0<<<<<<odnbmcmblc0<<<<<<<pb0<<qgqcqj0<<<qfocmdodncpcqcpbpdmcqb0<<<pdpbobqbnbmc0<<<<<<<<pcnc0<<<qimcpcpdodobrcrdqcpbse0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Go-no-go = Wu~wu~ = 5-5 Point\n\nThe 5-5 was experimented with briefly during the \"New Fuseki\"\nmovement in Japan in the 1930s. The 5-5 point has not retained\npopularity because the 4-4 hoshi (star) point strikes a better\nbalance between influence and territory. As one can see from\nthe variations, though, the 5-5 is playable.\n\nWhite responds with 'a' to 'e'.",
+                "qd": "Komoku\n\nBlack continues with 'a', 'b' or 'c'.",
+                "qdqe": "White continues with 'a'. White 'b' gives Black great thickness\nto the top, though White gets good territory.",
+                "qdqere": "Black continues with 'a'. Black 'b' is not recommended.",
+                "qdqerepe": "White continues with 'a'. White 'b' is not recommended.",
+                "qdqerepeqf": "Black continues with 'a'. Black 'b' is a mistake.",
+                "qdqererf": "Black 5 is not recommended.",
+                "qdqepe": "White 4 gives Black great thickness towards the top, while White\ngets solid territory at right.",
+                "qdpc": "'A' or 'B'.",
+                "qdpcqc": "'A' or 'B'.",
+                "qdpcqcpf": "White continues with 'a' or 'b'.",
+                "qdpcqcpfpdod": "White continues with 'a' or 'b'.",
+                "qdpcqcqf": "'A' or 'B'.",
+                "qdpcqcqfocncob": "'A' or 'B'.",
+                "qdpcqcqfocncobnbodndnepe": "'A' is correct, 'B' and 'C' are mistakes.",
+                "qdqfoc": "'A' or 'B'.",
+                "qdqfocmdod": "Later, B can increase his thickness here.\n'A' is correct, 'B' is submissive.",
+                "qdqfocmdodncpcqc": "'A' and 'B' are good.",
+                "qdqfocmdodpcnc": "Later."
+              }
+            },
+            {
+              "id": "5-5/d7f6a98a",
+              "title": "Low approach (R15)",
+              "boardSize": 19,
+              "subBoardSize": 13,
+              "topLeft": [
+                0,
+                6
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oe"
+                ],
+                "white": []
+              },
+              "variationTree": "qeocqhqc0<qcpgrgjd0<<<<qdrd0pdpeqcrdqfpcodqbocpbmdne0<<<<<<<<<<<<qfrfpfpdrgodrerdsfmd0<<<<<<qgrgrhresgqdpgjd0<<<<<<<qcrgncrd0<<<<<<pcqcqfrfpfrdhdpbobpdodocnc0<<<ocncodnd0<pdod0<<<<ocobnc0<<<ocpd1<<pbkdrgpdodqbnc0<<<<<<<<<<<pdodqcobqbqfrfpfrgjd0<<<<<<<<<<<<",
+              "comments": {
+                "": "Go-no-go = Wu~wu~ = 5-5 Point\n\nThe 5-5 was experimented with briefly during the \"New Fuseki\"\nmovement in Japan in the 1930s. The 5-5 point has not retained\npopularity because the 4-4 hoshi (star) point strikes a better\nbalance between influence and territory. As one can see from\nthe variations, though, the 5-5 is playable.\n\nWhite responds with 'a' to 'e'.",
+                "qe": "Mokuhazushi\n\nBlack continues with 'a' to 'd'.",
+                "qeoc": "White continues with 'a' or 'b'.",
+                "qeqd": "White continues with 'a' to settle on the right, or 'b' to start\na fight.",
+                "qeqdpd": "As always, White 4 is a fighting move.",
+                "qeqf": "Black 3 emphasizes the right side, though White has the choice\nof that.",
+                "qeqfrfpf": "White continues with 'a'. White 'b' is not recommended. White\n'c' is very loose.",
+                "qeqfrfpfqg": "White 6 is not recommended.",
+                "qeqfrfpfqc": "White 6 is a loose way of playing.",
+                "qepc": "'A' is better than 'B'.",
+                "qepcqcqfrfpfrd": "'A' is correct, 'B' is wrong.",
+                "qepcqcqfrfpfrdhd": "'A' is better than 'B'.",
+                "qepcqcqfrfpfrdhdpb": "'A' is better than 'B'.",
+                "qepcqcqfrfpfrdhdpbob": "'A' or 'B'.",
+                "qepcqcqfrfpfrdhdpbobocnc": "'A' or 'B'.",
+                "qepcqcqfrfpfrdhdoc": "'A' is correct, 'B' is a mistake."
+              }
+            },
+            {
+              "id": "5-5/ef9d9044",
+              "title": "Low approach (R14)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oe"
+                ],
+                "white": []
+              },
+              "variationTree": "qfqdqinc0<ncpc0<ocod0<<<<",
+              "comments": {
+                "": "Go-no-go = Wu~wu~ = 5-5 Point\n\nThe 5-5 was experimented with briefly during the \"New Fuseki\"\nmovement in Japan in the 1930s. The 5-5 point has not retained\npopularity because the 4-4 hoshi (star) point strikes a better\nbalance between influence and territory. As one can see from\nthe variations, though, the 5-5 is playable.\n\nWhite responds with 'a' to 'e'.",
+                "qf": "Oomokuhazushi\n\nWhite forsakes the corner for the right.",
+                "qfqd": "White continues with 'a' or 'b'. White 'c' is not recommended.",
+                "qfqdoc": "White 4 is not recommended. White cannot have it both ways."
+              }
+            },
+            {
+              "id": "5-5/10bae903",
+              "title": "High approach (Q16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "oe"
+                ],
+                "white": []
+              },
+              "variationTree": "pdpeqdqeodndncmcnbmbpbmd0<<<<<<<ncocodndobmcnbmd0<<<mdnemcrdpbqb0<<<<<<<<<<<qeqfqdodrfqgrgqhobocpbmc0<<<<<<<<<<<ocqemcqcjc0<<<qdqcqercncnbodpcmcmblc0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Go-no-go = Wu~wu~ = 5-5 Point\n\nThe 5-5 was experimented with briefly during the \"New Fuseki\"\nmovement in Japan in the 1930s. The 5-5 point has not retained\npopularity because the 4-4 hoshi (star) point strikes a better\nbalance between influence and territory. As one can see from\nthe variations, though, the 5-5 is playable.\n\nWhite responds with 'a' to 'e'.",
+                "pd": "Not the best way of invading 5-5\nHoshi",
+                "pdpe": "White continues with 'a' to 'c'.",
+                "pdpeqdqe": "White continues with 'a' or 'b'.",
+                "pdpeqdqencoc": "Painful for White",
+                "pdpeqdqencocodnd": "White continues with 'a' or 'b'.",
+                "pdpeqdqencocodndobmcnbmd": "A-B-C yose is painful later, so the result is better for Black",
+                "pdpeoc": "Black continues with 'a' or 'b'."
+              }
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "title": "6-3 point (dai-mokuhazushi)",
+          "josekis": [
+            {
+              "id": "6-3/018abb2d",
+              "title": "Low approach (R16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nc"
+                ],
+                "white": []
+              },
+              "variationTree": "qdqcrcpcre0pfrbqi0<<rbqfqepfodmcocobnekd0<<<<<<<<<<pdqepcrb0<rbqbpcsbpf0<<<pcqbodpeocoendqf0<<<<<<<<<pcqbpeodrerbsbpbpg0<<<<<<<<<<pcpdqbrcodpeocrbpgofndog0<ognf0<<<ndpgkd0<<<<<pbpeocpdrbobqa0<<<<<<<<<odpeqbocrcpbqcne0<<<<<ocqeqbrdrcldndqi0<<<<<<<<<<<<qbqgkc0<phnepdocrbjc0<<<<<pdocqhrcrd0<<<<<<<",
+              "comments": {
+                "": "Oomokuhazushi = 6-3 Point\n\nThe large mokuhazushi point (6-3), a remnant of the \"new fuseki\"\nmovement in Japan in the 1930's. As an initial corner point,\nits popular usage has not stood the test of time.\n'A' or 'B'.",
+                "qd": "Komoku\n\nBlack continues with 'a' or 'b'.",
+                "qdqc": "White continues with 'a' or 'b'.",
+                "qdqcrc": "Black continues with 'a' or 'b'.",
+                "qdqcrcpc": "White continues with 'a' to 'c'.",
+                "qdqcrcpd": "White continues with 'a'. White 'b' is not recommended.",
+                "qdqcrcpdqe": "Black continues with 'a' or 'b'.",
+                "qdqcrcpdqerb": "White continues with 'a' (a forcing move). White 'b' is a cha\\\nnge\nof direction that results in Black's favor.",
+                "qdqcrcpdqerbqb": "White 8 is a simple forcing move.",
+                "qdqcrcpdqerbpc": "White 8 aims to take the top, but is not recommended.",
+                "qdqcpcpd": "White continues with 'a'. White 'b' is not recommended.",
+                "qdqcpcpdqbrcod": "'A' is correct, 'B' is not recommended.",
+                "qdqcpcpdqbrcodpeocrb": "'A' or 'B' are ok.",
+                "qdqcpcpdqbrcodpeocrbpgof": "White continues with 'a' or 'b'.",
+                "qdqcpcpdod": "White 6 is not recommended.",
+                "qdqcpcpdodpe": "White continues with 'a' or 'b'.",
+                "qdqb": "White continues with 'a' to 'c'."
+              }
+            },
+            {
+              "id": "6-3/d6d905d1",
+              "title": "High approach (Q16)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nc"
+                ],
+                "white": []
+              },
+              "variationTree": "pdqfpfpgofqeqdogngpeoeodqgrd0<<<<nfndmdmemf0<<<<<<<<qcqeqgpcpbrbqbrc0<<<<<<<<<<<<<",
+              "comments": {
+                "": "Oomokuhazushi = 6-3 Point\n\nThe large mokuhazushi point (6-3), a remnant of the \"new fuseki\"\nmovement in Japan in the 1930's. As an initial corner point,\nits popular usage has not stood the test of time.\n'A' or 'B'.",
+                "pd": "Hoshi",
+                "pdqfpfpgof": "'A' or 'B'.",
+                "pdqfpfpgofqeqdogng": "'A' or 'B'."
+              }
+            }
+          ]
+        },
+        {
+          "id": "6-4",
+          "title": "6-4 point (dai-takamoku)",
+          "josekis": [
+            {
+              "id": "6-4/e2f0db7f",
+              "title": "High approach (Q16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "pdpf0peqepfodneqfqgqdpgnbncoblc0<<<<<<qdqcrdrcqgre0<<<<<<<<qfqdpcrdqgqbpbqcoepg0<<<<<<<<<<qdqcrdoepfodrcpbqfofog0<<<<<<<<<<<<qdqcpepcrerdqenbpi0<<<<<<<<pcqcocqdjcqh0<<<<<<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible.",
+                "pd": "Black continues with 'a' or 'b'.\n'c' is not recommended.\n'd' is possible.",
+                "pdpf": "See the variation starting with the 4-4-point, where after the\nhigh near approach move tenuki occurs, followed by the second\nkakari.",
+                "pdpeqe": "Black continues with 'a' to 'c'.",
+                "pdpeqepf": "White continues with 'a'. White 'b' is not recommended.",
+                "pdpeqepfodneqf": "Black continues with 'a'. Black 'b' is not recommended.",
+                "pdpeqepfodneqfqd": "Black 9 is not recommended, as Black gains no advantage.",
+                "pdpeqepfodneqfqdqcrdrcqgre": "Black still has to cover the potential cutting point. This vari\\\nation\nis not favorable to Black.",
+                "pdpeqepfqf": "White 6 is not recommended.",
+                "pdpeqeqd": "Black 5 results in Black building a moyo on the right, while\nWhite builds a moyo at top.",
+                "pdqdqcpepcrerdqenb": "'A' is correct, tenuki 'B' is not recommended."
+              }
+            },
+            {
+              "id": "6-4/0bbc2174",
+              "title": "Low approach (R16)",
+              "boardSize": 19,
+              "subBoardSize": 11,
+              "topLeft": [
+                0,
+                8
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "qdqcrcpcrejc0<qgrbqj0<<pdod1<<pdpepcreoepf0<<<<<<pcpdodpeocoercqbrbqerdnc0<<rdqeqf0<<<<<qbrcrbrdmbqj0<<<<<<<<<rcqbpeodrerbsbobpg0<<<<<<<<pbqbrdocpeodrbobrcpa0<<<<<<<rbrcodpeoeofocqe0<<<<<rdsb1<<rdqercnbpeqfsb0pf0<<<<<<<<qerdperc0<<<<obqerdqbodpeoere0<<<reocpbnbpeod0<<<<<<<<<<<<pd0<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible.",
+                "qd": "Black continues with 'a' or 'b'.",
+                "qdqc": "White continues with 'a' or 'b'.",
+                "qdqcrc": "Black continues with 'a' or 'b'.",
+                "qdqcrcpc": "White continues with 'a' to 'c'.",
+                "qdqcrcpcpd": "'A' settles on the top, giving the right.\n'B' has various outcomes.\n'C' is a mistake.",
+                "qdqcpcpd": "White continues with 'a' to take the corner or top, 'b' to emphasiz\\\ne\nthe right, 'c' to take the corner, or 'd' for influence at top,\nor possibly the right.",
+                "qdqcpcpdod": "White 6 emphasizes the corner or top.",
+                "qdqcpcpdodpeocoe": "White continues with 'a' to take the corner, or 'b' to emphasize\nthe top.",
+                "qdqcpcpdodpeocoercqbrb": "Black continues with 'a' or 'b'.",
+                "qdqcpcpdrc": "White 6 emphasizes the right.",
+                "qdqcpcpdpb": "Black continues with 'a' or 'b', but 'a' is preferred.",
+                "qdqcpcpdpbqb": "White continues with 'a' or 'b'.",
+                "qdqcpcpdpbqbrb": "Black continues with 'a' or 'b'.",
+                "qdqcpcpdpbqbrbrc": "'A' or 'B'.",
+                "qdqcpcpdpbqbrbrcrd": "Black continues with 'a'. Black 'b' is a mistake.",
+                "qdqcpcpdpbqbrbrdqercnb": "Black continues with 'a' or 'b'.",
+                "qdqcpcpdpbqbrbrdqercnbpeqf": "Black plays 'a' to take the corner, and 'b' for influence\\\n toward\nthe top.",
+                "qdqcpcpdob": "Almost ironically, White 6 aims at influence at the top.",
+                "qdqcpcpdobqerdqb": "White plays 'a' for influence at top, or 'b' for territory on\nthe right side."
+              }
+            },
+            {
+              "id": "6-4/8527b8ec",
+              "title": "Low approach (Q17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "pcpdqcocqdpeqepfqg0<<<<<qdodoeocnencldpepfqerd0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible.",
+                "pcpdqc": "Black continues with 'a' to emphasize the top, 'b' to emphasize\nthe right side."
+              }
+            },
+            {
+              "id": "6-4/6e3c7256",
+              "title": "Low approach (R17)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "qcqe0pdrepcqbqfrfqgpb0<<qepepfqhofrfpbqd0<<<<<<<<<<<<<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible.",
+                "qc": "Black continues with 'a' or'b'.",
+                "qcpdrepcqbqf": "White continues with 'a' peaceably, or 'b' to cut.",
+                "qcpdrepcqbqfqe": "kiri (cut)"
+              }
+            },
+            {
+              "id": "6-4/41b9d5ab",
+              "title": "Low approach (R15)",
+              "boardSize": 19,
+              "subBoardSize": 9,
+              "topLeft": [
+                0,
+                10
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "qepdrcpfqfpgrh0<<<<<<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible."
+              }
+            },
+            {
+              "id": "6-4/ed5ba62a",
+              "title": "High approach (Q15)",
+              "boardSize": 19,
+              "subBoardSize": 10,
+              "topLeft": [
+                0,
+                9
+              ],
+              "first": "white",
+              "initialStones": {
+                "black": [
+                  "nd"
+                ],
+                "white": []
+              },
+              "variationTree": "pepdqdqcrercodpcoeocqi0<<<<<<rcpcreoepf0<<<qerdqfpcodpb0<<<<<<<<<<<",
+              "comments": {
+                "": "Ootakamoku = Chaogao = 6-4 Point\n\nThe large takamoku (high) point (6-4), experimented with during\nthe \"new fuseki\" movement in Japan in the 1930's. This point\nis seldom played as the initial corner point nowadays.\n\nWhite continues with 'a' to 'f'.\nTenuki 'g' is also possible.",
+                "pepdqdqcrercodpcoeocqi": "Joseki",
+                "pepdqdqcrcpcreoepf": "Joseki",
+                "pepdqdqcrcqerdqfpcodpb": "Joseki\nBlack can defend at A or B now or consider tenuki"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

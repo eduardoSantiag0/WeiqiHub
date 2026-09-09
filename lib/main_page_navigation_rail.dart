@@ -52,6 +52,10 @@ class _MainPageNavigationRailState extends State<MainPageNavigationRail> {
           icon: Icon(Icons.fitness_center),
           label: Text(loc.train),
         ),
+        NavigationRailDestination(
+          icon: Icon(Icons.menu_book),
+          label: Text(loc.taskTypeJoseki),
+        ),
       ],
     );
   }

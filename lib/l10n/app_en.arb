@@ -96,6 +96,7 @@
   "error": "Error",
   "exit": "Exit",
   "exitTryMode": "Exit try mode",
+  "favorites": "Favorites",
   "find": "Find",
   "findTask": "Find task",
   "findTaskByLink": "By link",
@@ -122,6 +123,62 @@
   "helpDialogRankedMode": "- Solve tasks without a time limit.\n\n- Task difficulty increases according to how fast you solve them.\n\n- Focus on solving correctly and reach the highest rank possible.",
   "helpDialogTimeFrenzy": "- You have 3 minutes to solve as many tasks as possible.\n\n- Tasks get increasingly difficult as you solve them.\n\n- If you make 3 mistakes, you are out.",
   "home": "Home",
+  "josekiComplete": "Joseki complete",
+  "josekiNext": "Next joseki",
+  "josekiNoFavorites": "Favorite josekis to practise them here",
+  "josekiPlayShuffled": "Play in random order",
+  "josekiPlayFavoritesShuffled": "Play favorites in random order",
+  "josekiShowFavoritesOnly": "Show favorites only",
+  "josekiRandomizeOrientation": "Randomize orientation",
+  "josekiRandomizeSide": "Randomize side (Black/White)",
+  "josekiImport": "Import",
+  "josekiNewCategory": "New category",
+  "josekiNewCategoryOption": "New category…",
+  "josekiImportFiles": "Import files",
+  "josekiImportFolder": "Import SGF folder",
+  "josekiImportOgsUrl": "From OGS collection URL",
+  "josekiImportOgsUrlTitle": "Import OGS puzzle collection",
+  "josekiImportOgsUrlLabel": "Puzzle collection URL",
+  "josekiImportOgsUrlDownloading": "Downloading puzzles from OGS…",
+  "josekiImportOgsUrlInvalid": "That doesn't look like an OGS puzzle collection URL",
+  "josekiImportOgsUrlFailed": "Couldn't download that puzzle collection",
+  "josekiImportTarget": "Add to category",
+  "josekiCategoryName": "Category name",
+  "josekiRename": "Rename",
+  "josekiExport": "Export as SGF",
+  "josekiExportedTo": "Category exported to {path}",
+  "@josekiExportedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "josekiExportFailed": "Export failed",
+  "josekiChangeIcon": "Change icon",
+  "josekiCategoryIcon": "Category icon",
+  "josekiDeleteCategory": "Delete category",
+  "josekiDeleteCategoryConfirm": "Delete \"{name}\" and its imported josekis?",
+  "@josekiDeleteCategoryConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "josekiImportNoSgf": "No SGF files found in that folder",
+  "josekiImportFailed": "Import failed",
+  "josekiImportResult": "Imported {imported}, skipped {skipped}",
+  "@josekiImportResult": {
+    "placeholders": {
+      "imported": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
   "komi": "Komi",
   "language": "Language",
   "leave": "Leave",
@@ -302,6 +359,7 @@
   "taskTypeOpening": "Opening",
   "taskTypeTesuji": "Tesuji",
   "taskTypeTheory": "Theory",
+  "taskUndoMove": "Undo move",
   "taskWrong": "Wrong",
   "tasksSolved": "Tasks solved",
   "test": "Test",

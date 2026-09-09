@@ -31,6 +31,7 @@ class _MainPageBottomNavigationBarState
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
       currentIndex: _selectedDestination.index,
       onTap: (index) {
         if (index != _selectedDestination.index) {
@@ -52,6 +53,10 @@ class _MainPageBottomNavigationBarState
         BottomNavigationBarItem(
           icon: Icon(Icons.fitness_center),
           label: loc.train,
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.menu_book),
+          label: loc.taskTypeJoseki,
         ),
       ],
     );

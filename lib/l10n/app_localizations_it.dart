@@ -232,6 +232,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get exitTryMode => 'Ritorna';
 
   @override
+  String get favorites => 'Preferiti';
+
+  @override
   String get find => 'Trova';
 
   @override
@@ -315,6 +318,111 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get home => 'Home';
+
+  @override
+  String get josekiComplete => 'Joseki completato';
+
+  @override
+  String get josekiNext => 'Joseki successivo';
+
+  @override
+  String get josekiNoFavorites =>
+      'Aggiungi joseki ai preferiti per esercitarti qui';
+
+  @override
+  String get josekiPlayShuffled => 'Gioca in ordine casuale';
+
+  @override
+  String get josekiPlayFavoritesShuffled => 'Play favorites in random order';
+
+  @override
+  String get josekiShowFavoritesOnly => 'Show favorites only';
+
+  @override
+  String get josekiRandomizeOrientation => 'Orientamento casuale';
+
+  @override
+  String get josekiRandomizeSide => 'Colore casuale (nero/bianco)';
+
+  @override
+  String get josekiImport => 'Import';
+
+  @override
+  String get josekiNewCategory => 'New category';
+
+  @override
+  String get josekiNewCategoryOption => 'New category…';
+
+  @override
+  String get josekiImportFiles => 'Import files';
+
+  @override
+  String get josekiImportFolder => 'Import SGF folder';
+
+  @override
+  String get josekiImportOgsUrl => 'From OGS collection URL';
+
+  @override
+  String get josekiImportOgsUrlTitle => 'Import OGS puzzle collection';
+
+  @override
+  String get josekiImportOgsUrlLabel => 'Puzzle collection URL';
+
+  @override
+  String get josekiImportOgsUrlDownloading => 'Downloading puzzles from OGS…';
+
+  @override
+  String get josekiImportOgsUrlInvalid =>
+      'That doesn\'t look like an OGS puzzle collection URL';
+
+  @override
+  String get josekiImportOgsUrlFailed =>
+      'Couldn\'t download that puzzle collection';
+
+  @override
+  String get josekiImportTarget => 'Add to category';
+
+  @override
+  String get josekiCategoryName => 'Category name';
+
+  @override
+  String get josekiRename => 'Rename';
+
+  @override
+  String get josekiExport => 'Export as SGF';
+
+  @override
+  String josekiExportedTo(String path) {
+    return 'Category exported to $path';
+  }
+
+  @override
+  String get josekiExportFailed => 'Export failed';
+
+  @override
+  String get josekiChangeIcon => 'Change icon';
+
+  @override
+  String get josekiCategoryIcon => 'Category icon';
+
+  @override
+  String get josekiDeleteCategory => 'Delete category';
+
+  @override
+  String josekiDeleteCategoryConfirm(String name) {
+    return 'Delete \"$name\" and its imported josekis?';
+  }
+
+  @override
+  String get josekiImportNoSgf => 'No SGF files found in that folder';
+
+  @override
+  String get josekiImportFailed => 'Import failed';
+
+  @override
+  String josekiImportResult(int imported, int skipped) {
+    return 'Imported $imported, skipped $skipped';
+  }
 
   @override
   String get komi => 'Komi';
@@ -721,6 +829,9 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get taskTypeTheory => 'Teoria';
+
+  @override
+  String get taskUndoMove => 'Annulla mossa';
 
   @override
   String get taskWrong => 'Sbagliato';

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wqhub/analysis/analysis_page.dart';
+import 'package:wqhub/joseki/joseki_category_list_page.dart';
+import 'package:wqhub/joseki/joseki_list_page.dart';
+import 'package:wqhub/joseki/joseki_trainer_page.dart';
 import 'package:wqhub/local_board_page.dart';
 import 'package:wqhub/main_page.dart';
 import 'package:wqhub/play/automatch_page.dart';
@@ -88,6 +91,16 @@ Route<dynamic>? onGenerateRoute(RouteSettings settings) {
     case CollectionPreviewPage.routeName:
       final args = settings.arguments as CollectionPreviewRouteArguments;
       return _mpr(settings, CollectionPreviewPage(collection: args.collection));
+    case JosekiCategoryListPage.routeName:
+      final args = settings.arguments as JosekiCategoryListRouteArguments;
+      return _mpr(settings, JosekiCategoryListPage(group: args.group));
+    case JosekiListPage.routeName:
+      final args = settings.arguments as JosekiListRouteArguments;
+      return _mpr(settings, JosekiListPage(category: args.category));
+    case JosekiTrainerPage.routeName:
+      final args = settings.arguments as JosekiTrainerRouteArguments;
+      return _mpr(settings,
+          JosekiTrainerPage(josekis: args.josekis, index: args.index));
     case CollectionPage.routeName:
       final args = settings.arguments as CollectionRouteArguments;
       return _mprNoPop(

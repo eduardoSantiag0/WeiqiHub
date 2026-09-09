@@ -30,6 +30,7 @@ class Settings {
   static const _localBoardHandicap = 'internal.local_board.handicap';
   static const _localBoardMoves = 'internal.local_board.moves';
   static const _customExamPresets = 'internal.custom_exam_presets';
+  static const _favoriteJosekiIds = 'internal.favorite_joseki_ids';
   static const _themeKey = 'settings.theme';
   static const _behaviourKeyPrefix = 'settings.behaviour';
   static const _soundStoneKey = 'settings.sound.stone';
@@ -70,6 +71,29 @@ class Settings {
   set customExamPresets(CustomExamPresets presets) {
     prefs.setString(_customExamPresets, jsonEncode(presets.toJson()));
   }
+
+  List<String> get favoriteJosekiIds =>
+      prefs.getStringList(_favoriteJosekiIds) ?? const [];
+
+  bool isJosekiFavorite(String id) =>
+      (prefs.getStringList(_favoriteJosekiIds) ?? const []).contains(id);
+
+  void setJosekiFavorite(String id, bool favorite) {
+    final ids = prefs.getStringList(_favoriteJosekiIds) ?? <String>[];
+    ids.remove(id);
+    if (favorite) ids.add(id);
+    prefs.setStringList(_favoriteJosekiIds, ids);
+  }
+
+  bool get josekiRandomizeOrientation =>
+      prefs.getBool('$_behaviourKeyPrefix.joseki_randomize_orientation') ?? true;
+  set josekiRandomizeOrientation(bool v) =>
+      prefs.setBool('$_behaviourKeyPrefix.joseki_randomize_orientation', v);
+
+  bool get josekiRandomizeSide =>
+      prefs.getBool('$_behaviourKeyPrefix.joseki_randomize_side') ?? true;
+  set josekiRandomizeSide(bool v) =>
+      prefs.setBool('$_behaviourKeyPrefix.joseki_randomize_side', v);
 
   Iterable<wq.Point> get localBoardMoves =>
       (prefs.getStringList(_localBoardMoves) ?? []).map(wq.parseSgfPoint);

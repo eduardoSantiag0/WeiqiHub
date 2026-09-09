@@ -7,6 +7,8 @@ import 'package:flutter/services.dart';
 import 'package:logging/logging.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wqhub/audio/audio_controller.dart';
+import 'package:wqhub/joseki/joseki_db.dart';
+import 'package:wqhub/joseki/joseki_library.dart';
 import 'package:wqhub/settings/settings.dart';
 import 'package:wqhub/settings/shared_preferences_inherited_widget.dart';
 import 'package:wqhub/stats/stats_db.dart';
@@ -42,6 +44,8 @@ Future<void> main() async {
       AudioController.init(settings),
       TaskDB.init(),
       StatsDB.init(),
+      JosekiDb.init(),
+      JosekiLibrary.init(),
     ]);
 
     // Apply version patches

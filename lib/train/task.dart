@@ -28,20 +28,25 @@ class Task {
 
   Task withBlackToPlay() => switch (first) {
         wq.Color.black => this,
-        wq.Color.white => Task(
-            ref: ref,
-            first: wq.Color.black,
-            boardSize: boardSize,
-            subBoardSize: subBoardSize,
-            topLeft: topLeft,
-            initialStones: IMapOfSets({
-              wq.Color.black: initialStones.get(wq.Color.white),
-              wq.Color.white: initialStones.get(wq.Color.black),
-            }),
-            variationTree: variationTree,
-            fingerprint: fingerprint,
-          ),
+        wq.Color.white => withSwappedColors(),
       };
+
+  /// Swaps the colour of every stone and of the side to move. The variation
+  /// tree is colour-agnostic, so the same lines still apply - this just lets
+  /// the learner drill the position from the other player's seat.
+  Task withSwappedColors() => Task(
+        ref: ref,
+        first: first.opposite,
+        boardSize: boardSize,
+        subBoardSize: subBoardSize,
+        topLeft: topLeft,
+        initialStones: IMapOfSets({
+          wq.Color.black: initialStones.get(wq.Color.white),
+          wq.Color.white: initialStones.get(wq.Color.black),
+        }),
+        variationTree: variationTree,
+        fingerprint: fingerprint,
+      );
 
   Task withSymmetry(Symmetry symmetry) {
     if (symmetry == Symmetry.identity) {
