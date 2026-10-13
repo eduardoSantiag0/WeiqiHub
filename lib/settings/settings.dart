@@ -10,6 +10,10 @@ import 'package:wqhub/board/board_sizes.dart';
 import 'package:wqhub/game_client/automatch_options.dart';
 import 'package:wqhub/l10n/app_localizations.dart';
 import 'package:wqhub/settings/analysis_provider.dart';
+import 'package:wqhub/settings/appearance/color_role.dart';
+import 'package:wqhub/settings/appearance/imported_color_role_set.dart';
+import 'package:wqhub/settings/appearance/imported_color_theme.dart';
+import 'package:wqhub/settings/appearance/imported_color_themes.dart';
 import 'package:wqhub/train/custom_exam_presets.dart';
 import 'package:wqhub/train/response_delay.dart';
 import 'package:wqhub/wq/wq.dart' as wq;
@@ -31,12 +35,32 @@ class Settings {
   static const _localBoardMoves = 'internal.local_board.moves';
   static const _customExamPresets = 'internal.custom_exam_presets';
   static const _favoriteJosekiIds = 'internal.favorite_joseki_ids';
+  // Default favorites shipped with the app; used until the learner
+  // explicitly changes their favorites for the first time.
+  static const _defaultFavoriteJosekiIds = <String>[
+    '4-4/88b7ea82', // Response (O16)
+    '4-4/0334b98b', // Attachment (Q14)
+    '4-4/adfd4bd8', // Response (Q11)
+    '4-4/f161f2b1', // High approach (Q14)
+    '4-4/0e1853da', // Low approach (R11)
+    '4-4/fe62c43d', // Attachment (R16)
+    '3-4/edb71323', // One-space high pincer (N16)
+    '3-4/ef2d2b2c', // Two-space high pincer (M16)
+    '3-4/797bd3b9', // Low approach (R14)
+    '3-3/7eca3ded', // High approach (Q16)
+    '3-3/ae5c0f72', // Attachment (Q17)
+  ];
   static const _themeKey = 'settings.theme';
   static const _behaviourKeyPrefix = 'settings.behaviour';
   static const _soundStoneKey = 'settings.sound.stone';
   static const _soundVoiceKey = 'settings.sound.voice';
   static const _soundUIKey = 'settings.sound.ui';
   static const _credentialsPrefix = 'settings.auth';
+  static const _importedColorThemes = 'internal.imported_color_themes';
+  static const _appLightColorTheme = 'settings.appearance.app_light_color_theme';
+  static const _appDarkColorTheme = 'settings.appearance.app_dark_color_theme';
+  static const _lightColorOverrides = 'settings.appearance.light_color_overrides';
+  static const _darkColorOverrides = 'settings.appearance.dark_color_overrides';
   static const _boardTheme = 'settings.board.theme';
   static const _boardShowCoordinatesKey = 'settings.board.show_coordinates';
   static const _boardStoneShadowsKey = 'settings.board.stone_shadows';
@@ -73,13 +97,15 @@ class Settings {
   }
 
   List<String> get favoriteJosekiIds =>
-      prefs.getStringList(_favoriteJosekiIds) ?? const [];
+      prefs.getStringList(_favoriteJosekiIds) ?? _defaultFavoriteJosekiIds;
 
   bool isJosekiFavorite(String id) =>
-      (prefs.getStringList(_favoriteJosekiIds) ?? const []).contains(id);
+      (prefs.getStringList(_favoriteJosekiIds) ?? _defaultFavoriteJosekiIds)
+          .contains(id);
 
   void setJosekiFavorite(String id, bool favorite) {
-    final ids = prefs.getStringList(_favoriteJosekiIds) ?? <String>[];
+    final ids = prefs.getStringList(_favoriteJosekiIds) ??
+        List<String>.from(_defaultFavoriteJosekiIds);
     ids.remove(id);
     if (favorite) ids.add(id);
     prefs.setStringList(_favoriteJosekiIds, ids);
@@ -120,6 +146,109 @@ class Settings {
   set themeMode(ThemeMode mode) => prefs.setInt(_themeKey, mode.index);
 
   // Appearance
+  ImportedColorThemes get importedColorThemes {
+    final val = prefs.getString(_importedColorThemes);
+    if (val == null) {
+      return ImportedColorThemes.empty();
+    }
+    return ImportedColorThemes.fromJson(jsonDecode(val));
+  }
+
+  set importedColorThemes(ImportedColorThemes themes) {
+    prefs.setString(_importedColorThemes, jsonEncode(themes.toJson()));
+  }
+
+  // The name of the currently selected imported theme for each brightness,
+  // or null to use the app's default color scheme. Light and dark can point
+  // at different imported themes (e.g. Catppuccin for light, Everforest for
+  // dark).
+  String? get appLightColorThemeName => prefs.getString(_appLightColorTheme);
+
+  set appLightColorThemeName(String? name) {
+    if (name == null) {
+      prefs.remove(_appLightColorTheme);
+    } else {
+      prefs.setString(_appLightColorTheme, name);
+    }
+  }
+
+  String? get appDarkColorThemeName => prefs.getString(_appDarkColorTheme);
+
+  set appDarkColorThemeName(String? name) {
+    if (name == null) {
+      prefs.remove(_appDarkColorTheme);
+    } else {
+      prefs.setString(_appDarkColorTheme, name);
+    }
+  }
+
+  ImportedColorRoleSet get lightColorOverrides {
+    final val = prefs.getString(_lightColorOverrides);
+    return val == null
+        ? const ImportedColorRoleSet()
+        : ImportedColorRoleSet.fromJson(jsonDecode(val));
+  }
+
+  set lightColorOverrides(ImportedColorRoleSet overrides) {
+    prefs.setString(_lightColorOverrides, jsonEncode(overrides.toJson()));
+  }
+
+  ImportedColorRoleSet get darkColorOverrides {
+    final val = prefs.getString(_darkColorOverrides);
+    return val == null
+        ? const ImportedColorRoleSet()
+        : ImportedColorRoleSet.fromJson(jsonDecode(val));
+  }
+
+  set darkColorOverrides(ImportedColorRoleSet overrides) {
+    prefs.setString(_darkColorOverrides, jsonEncode(overrides.toJson()));
+  }
+
+  void setLightColorOverride(ColorRole role, Color? color) {
+    lightColorOverrides = lightColorOverrides.withColor(role, color);
+  }
+
+  void setDarkColorOverride(ColorRole role, Color? color) {
+    darkColorOverrides = darkColorOverrides.withColor(role, color);
+  }
+
+  // Resolves the selected theme name for each brightness to its role set
+  // overlaid with any manual per-role overrides, or null if nothing at all
+  // is customized (falls back to the app's default color scheme).
+  ImportedColorRoleSet? get appLightColorRoleSet {
+    final name = appLightColorThemeName;
+    final base = name == null ? null : importedColorThemes.themes[name]?.light;
+    final overrides = lightColorOverrides;
+    if (base == null && !overrides.hasAnyColor) return null;
+    return (base ?? const ImportedColorRoleSet()).overlay(overrides);
+  }
+
+  ImportedColorRoleSet? get appDarkColorRoleSet {
+    final name = appDarkColorThemeName;
+    final base = name == null ? null : importedColorThemes.themes[name]?.dark;
+    final overrides = darkColorOverrides;
+    if (base == null && !overrides.hasAnyColor) return null;
+    return (base ?? const ImportedColorRoleSet()).overlay(overrides);
+  }
+
+  void putImportedColorTheme(ImportedColorTheme theme) {
+    final themes = importedColorThemes;
+    themes.themes[theme.name] = theme;
+    importedColorThemes = themes;
+  }
+
+  void removeImportedColorTheme(String name) {
+    final themes = importedColorThemes;
+    themes.themes.remove(name);
+    importedColorThemes = themes;
+    if (appLightColorThemeName == name) {
+      appLightColorThemeName = null;
+    }
+    if (appDarkColorThemeName == name) {
+      appDarkColorThemeName = null;
+    }
+  }
+
   BoardTheme get boardTheme =>
       BoardTheme.themes[prefs.getString(_boardTheme)] ?? BoardTheme.plain;
   bool get showCoordinates => prefs.getBool(_boardShowCoordinatesKey) ?? false;

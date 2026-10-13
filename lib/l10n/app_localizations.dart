@@ -284,6 +284,132 @@ abstract class AppLocalizations {
   /// **'Board theme'**
   String get boardTheme;
 
+  /// No description provided for @appLightColorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Light theme'**
+  String get appLightColorTheme;
+
+  /// No description provided for @appDarkColorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark theme'**
+  String get appDarkColorTheme;
+
+  /// No description provided for @demoColorThemes.
+  ///
+  /// In en, this message translates to:
+  /// **'Try a demo theme'**
+  String get demoColorThemes;
+
+  /// No description provided for @colorOverrides.
+  ///
+  /// In en, this message translates to:
+  /// **'Color overrides'**
+  String get colorOverrides;
+
+  /// No description provided for @colorRolePrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Accent color'**
+  String get colorRolePrimary;
+
+  /// No description provided for @colorRoleOnPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Text on accent'**
+  String get colorRoleOnPrimary;
+
+  /// No description provided for @colorRoleSurface.
+  ///
+  /// In en, this message translates to:
+  /// **'Background'**
+  String get colorRoleSurface;
+
+  /// No description provided for @colorRoleSurfaceContainerHigh.
+  ///
+  /// In en, this message translates to:
+  /// **'Secondary background'**
+  String get colorRoleSurfaceContainerHigh;
+
+  /// No description provided for @colorRoleOnSurface.
+  ///
+  /// In en, this message translates to:
+  /// **'Text'**
+  String get colorRoleOnSurface;
+
+  /// No description provided for @colorRoleOnSurfaceVariant.
+  ///
+  /// In en, this message translates to:
+  /// **'Muted text'**
+  String get colorRoleOnSurfaceVariant;
+
+  /// No description provided for @colorRoleOutline.
+  ///
+  /// In en, this message translates to:
+  /// **'Border'**
+  String get colorRoleOutline;
+
+  /// No description provided for @colorRoleError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get colorRoleError;
+
+  /// No description provided for @hexColor.
+  ///
+  /// In en, this message translates to:
+  /// **'Hex color'**
+  String get hexColor;
+
+  /// No description provided for @invalidHexColor.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a 6-digit hex color'**
+  String get invalidHexColor;
+
+  /// No description provided for @clear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get clear;
+
+  /// No description provided for @appColorThemeDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'Default'**
+  String get appColorThemeDefault;
+
+  /// No description provided for @appColorThemeName.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme name'**
+  String get appColorThemeName;
+
+  /// No description provided for @importAppColorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Import theme'**
+  String get importAppColorTheme;
+
+  /// No description provided for @msgConfirmDeleteAppColorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure that you want to delete this theme?'**
+  String get msgConfirmDeleteAppColorTheme;
+
+  /// No description provided for @msgConfirmReplaceAppColorTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'A theme named \"{name}\" already exists. Replace it?'**
+  String msgConfirmReplaceAppColorTheme(String name);
+
+  /// No description provided for @msgObsidianThemeImportFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not import theme: {error}'**
+  String msgObsidianThemeImportFailed(String error);
+
   /// No description provided for @byRank.
   ///
   /// In en, this message translates to:

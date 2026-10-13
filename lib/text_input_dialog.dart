@@ -5,12 +5,14 @@ class TextInputDialog extends StatefulWidget {
   final String title;
   final String content;
   final int? maxLength;
+  final String? initialValue;
 
   const TextInputDialog({
     super.key,
     required this.title,
     required this.content,
     this.maxLength,
+    this.initialValue,
   });
 
   @override
@@ -19,7 +21,8 @@ class TextInputDialog extends StatefulWidget {
 
 class _TextInputDialogState extends State<TextInputDialog> {
   final _formKey = GlobalKey<FormState>(debugLabel: 'text_input_dialog');
-  final TextEditingController _controller = TextEditingController();
+  late final TextEditingController _controller =
+      TextEditingController(text: widget.initialValue);
 
   @override
   Widget build(BuildContext context) {

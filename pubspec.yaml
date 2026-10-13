@@ -102,6 +102,11 @@ flutter:
     - assets/sounds/en/
     - assets/tasks/
     - assets/joseki/joseki.json
+    - assets/themes/solarized.css
+    - assets/themes/wasp.css
+    - assets/themes/reverie.css
+    - assets/themes/catppuccin.css
+    - assets/themes/everforest.css
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

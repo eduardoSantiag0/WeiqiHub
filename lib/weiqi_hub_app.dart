@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:wqhub/l10n/app_localizations.dart';
 import 'package:wqhub/main_page.dart';
 import 'package:wqhub/routes.dart';
+import 'package:wqhub/settings/appearance/imported_color_role_set.dart';
 import 'package:wqhub/settings/shared_preferences_inherited_widget.dart';
 
 class WeiqiHubApp extends StatefulWidget {
@@ -16,13 +17,15 @@ class WeiqiHubApp extends StatefulWidget {
 class _WeiqiHubAppState extends State<WeiqiHubApp> {
   @override
   Widget build(BuildContext context) {
+    final lightRoleSet = context.settings.appLightColorRoleSet;
+    final darkRoleSet = context.settings.appDarkColorRoleSet;
     return MaterialApp(
       title: 'WeiqiHub',
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       locale: _defaultToCN(context.settings.locale),
-      theme: _buildTheme(context.settings.locale, Brightness.light),
-      darkTheme: _buildTheme(context.settings.locale, Brightness.dark),
+      theme: _buildTheme(context.settings.locale, Brightness.light, lightRoleSet),
+      darkTheme: _buildTheme(context.settings.locale, Brightness.dark, darkRoleSet),
       themeMode: context.settings.themeMode,
       home: MainPage(
         destination: MainPageDestination.home,
@@ -37,12 +40,14 @@ class _WeiqiHubAppState extends State<WeiqiHubApp> {
     );
   }
 
-  ThemeData _buildTheme(Locale locale, Brightness brightness) {
+  ThemeData _buildTheme(
+      Locale locale, Brightness brightness, ImportedColorRoleSet? roleSet) {
     final isWinChinese = Platform.isWindows && locale.languageCode == 'zh';
     final fontFamily = isWinChinese ? '微软雅黑' : null;
     final fontFamilyFallback = isWinChinese ? ['Microsoft YaHei'] : null;
     return ThemeData(
-      colorSchemeSeed: Colors.blueAccent,
+      colorScheme: roleSet?.toColorScheme(brightness),
+      colorSchemeSeed: roleSet == null ? Colors.blueAccent : null,
       brightness: brightness,
       fontFamily: fontFamily,
       fontFamilyFallback: fontFamilyFallback,

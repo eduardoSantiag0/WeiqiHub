@@ -100,6 +100,74 @@ class AppLocalizationsRo extends AppLocalizations {
   String get boardTheme => 'Temă a tablei';
 
   @override
+  String get appLightColorTheme => 'Light theme';
+
+  @override
+  String get appDarkColorTheme => 'Dark theme';
+
+  @override
+  String get demoColorThemes => 'Try a demo theme';
+
+  @override
+  String get colorOverrides => 'Color overrides';
+
+  @override
+  String get colorRolePrimary => 'Accent color';
+
+  @override
+  String get colorRoleOnPrimary => 'Text on accent';
+
+  @override
+  String get colorRoleSurface => 'Background';
+
+  @override
+  String get colorRoleSurfaceContainerHigh => 'Secondary background';
+
+  @override
+  String get colorRoleOnSurface => 'Text';
+
+  @override
+  String get colorRoleOnSurfaceVariant => 'Muted text';
+
+  @override
+  String get colorRoleOutline => 'Border';
+
+  @override
+  String get colorRoleError => 'Error';
+
+  @override
+  String get hexColor => 'Hex color';
+
+  @override
+  String get invalidHexColor => 'Enter a 6-digit hex color';
+
+  @override
+  String get clear => 'Clear';
+
+  @override
+  String get appColorThemeDefault => 'Default';
+
+  @override
+  String get appColorThemeName => 'Theme name';
+
+  @override
+  String get importAppColorTheme => 'Import theme';
+
+  @override
+  String get msgConfirmDeleteAppColorTheme =>
+      'Are you sure that you want to delete this theme?';
+
+  @override
+  String msgConfirmReplaceAppColorTheme(String name) {
+    return 'A theme named \"$name\" already exists. Replace it?';
+  }
+
+  @override
+  String msgObsidianThemeImportFailed(String error) {
+    return 'Could not import theme: $error';
+  }
+
+  @override
   String get byRank => 'După rang';
 
   @override

@@ -35,6 +35,41 @@
   "board": "Board",
   "boardSize": "Board size",
   "boardTheme": "Board theme",
+  "appLightColorTheme": "Light theme",
+  "appDarkColorTheme": "Dark theme",
+  "demoColorThemes": "Try a demo theme",
+  "colorOverrides": "Color overrides",
+  "colorRolePrimary": "Accent color",
+  "colorRoleOnPrimary": "Text on accent",
+  "colorRoleSurface": "Background",
+  "colorRoleSurfaceContainerHigh": "Secondary background",
+  "colorRoleOnSurface": "Text",
+  "colorRoleOnSurfaceVariant": "Muted text",
+  "colorRoleOutline": "Border",
+  "colorRoleError": "Error",
+  "hexColor": "Hex color",
+  "invalidHexColor": "Enter a 6-digit hex color",
+  "clear": "Clear",
+  "appColorThemeDefault": "Default",
+  "appColorThemeName": "Theme name",
+  "importAppColorTheme": "Import theme",
+  "msgConfirmDeleteAppColorTheme": "Are you sure that you want to delete this theme?",
+  "msgConfirmReplaceAppColorTheme": "A theme named \"{name}\" already exists. Replace it?",
+  "@msgConfirmReplaceAppColorTheme": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "msgObsidianThemeImportFailed": "Could not import theme: {error}",
+  "@msgObsidianThemeImportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
   "byRank": "By rank",
   "byType": "By type",
   "cancel": "Cancel",
